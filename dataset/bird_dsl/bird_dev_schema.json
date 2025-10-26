@@ -1,0 +1,302 @@
+[
+    {
+        "db_id": "california_schools",
+        "table_name": "frpm",
+        "schema": "[CDSCode, Academic Year, County Code, District Code, School Code, County Name, District Name, School Name, District Type, School Type, Educational Option Type, NSLP Provision Status, Charter School (Y/N), Charter School Number, Charter Funding Type, IRC, Low Grade, High Grade, Enrollment (K-12), Free Meal Count (K-12), Percent (%) Eligible Free (K-12), FRPM Count (K-12), Percent (%) Eligible FRPM (K-12), Enrollment (Ages 5-17), Free Meal Count (Ages 5-17), Percent (%) Eligible Free (Ages 5-17), FRPM Count (Ages 5-17), Percent (%) Eligible FRPM (Ages 5-17), 2013-14 CALPADS Fall 1 Certification Status]\n('01100170109835', '2014-2015', '01', 10017, '0109835', 'Alameda', 'Alameda County Office of Education', 'FAME Public Charter', 'County Office of Education (COE)', 'K-12 Schools (Public)', 'Traditional', None, 1, '0728', 'Directly funded', 1, 'K', '12', 1087.0, 565.0, 0.519779208831647, 715.0, 0.657773689052438, 1070.0, 553.0, 0.516822429906542, 702.0, 0.65607476635514, 1)\n('01100170112607', '2014-2015', '01', 10017, '0112607', 'Alameda', 'Alameda County Office of Education', 'Envision Academy for Arts & Technology', 'County Office of Education (COE)', 'High Schools (Public)', 'Traditional', None, 1, '0811', 'Directly funded', 1, '9', '12', 395.0, 186.0, 0.470886075949367, 186.0, 0.470886075949367, 376.0, 182.0, 0.484042553191489, 182.0, 0.484042553191489, 1)\n('01100170118489', '2014-2015', '01', 10017, '0118489', 'Alameda', 'Alameda County Office of Education', 'Aspire California College Preparatory Academy', 'County Office of Education (COE)', 'High Schools (Public)', 'Traditional', None, 1, '1049', 'Directly funded', 1, '9', '12', 244.0, 134.0, 0.549180327868853, 175.0, 0.717213114754098, 230.0, 128.0, 0.556521739130435, 168.0, 0.730434782608696, 1)\n('01100170123968', '2014-2015', '01', 10017, '0123968', 'Alameda', 'Alameda County Office of Education', 'Community School for Creative Education', 'County Office of Education (COE)', 'Elementary Schools (Public)', 'Traditional', 'Breakfast Provision 2', 1, '1284', 'Directly funded', 1, 'K', '8', 191.0, 113.0, 0.591623036649215, 139.0, 0.727748691099476, 190.0, 113.0, 0.594736842105263, 139.0, 0.731578947368421, 1)\n('01100170124172', '2014-2015', '01', 10017, '0124172', 'Alameda', 'Alameda County Office of Education', 'Yu Ming Charter', 'County Office of Education (COE)', 'Elementary Schools (Public)', 'Traditional', None, 1, '1296', 'Directly funded', 1, 'K', '8', 257.0, 14.0, 0.0544747081712062, 21.0, 0.0817120622568093, 257.0, 14.0, 0.0544747081712062, 21.0, 0.0817120622568093, 1)"
+    },
+    {
+        "db_id": "california_schools",
+        "table_name": "satscores",
+        "schema": "[cds, rtype, sname, dname, cname, enroll12, NumTstTakr, AvgScrRead, AvgScrMath, AvgScrWrite, NumGE1500]\n('1100170000000', 'D', None, 'Alameda County Office of Education', 'Alameda', 398, 88, 418, 418, 417, 14)\n('1100170109835', 'S', 'FAME Public Charter', 'Alameda County Office of Education', 'Alameda', 62, 17, 503, 546, 505, 9)\n('1100170112607', 'S', 'Envision Academy for Arts & Technology', 'Alameda County Office of Education', 'Alameda', 75, 71, 397, 387, 395, 5)\n('1100170118489', 'S', 'Aspire California College Preparatory Academy', 'Alameda County Office of Education', 'Alameda', 61, 0, None, None, None, None)\n('1611190000000', 'D', None, 'Alameda Unified', 'Alameda', 922, 544, 521, 546, 519, 333)"
+    },
+    {
+        "db_id": "california_schools",
+        "table_name": "schools",
+        "schema": "[CDSCode, NCESDist, NCESSchool, StatusType, County, District, School, Street, StreetAbr, City, Zip, State, MailStreet, MailStrAbr, MailCity, MailZip, MailState, Phone, Ext, Website, OpenDate, ClosedDate, Charter, CharterNum, FundingType, DOC, DOCType, SOC, SOCType, EdOpsCode, EdOpsName, EILCode, EILName, GSoffered, GSserved, Virtual, Magnet, Latitude, Longitude, AdmFName1, AdmLName1, AdmEmail1, AdmFName2, AdmLName2, AdmEmail2, AdmFName3, AdmLName3, AdmEmail3, LastUpdate]\n('01100170000000', '0691051', None, 'Active', 'Alameda', 'Alameda County Office of Education', None, '313 West Winton Avenue', '313 West Winton Ave.', 'Hayward', '94544-1136', 'CA', '313 West Winton Avenue', '313 West Winton Ave.', 'Hayward', '94544-1136', 'CA', '(510) 887-0152', None, 'www.acoe.org', None, None, None, None, None, '00', 'County Office of Education (COE)', None, None, None, None, None, None, None, None, None, None, 37.658212, -122.09713, 'L Karen', 'Monroe', 'lkmonroe@acoe.org', None, None, None, None, None, None, '2015-06-23')\n('01100170109835', '0691051', '10546', 'Closed', 'Alameda', 'Alameda County Office of Education', 'FAME Public Charter', '39899 Balentine Drive, Suite 335', '39899 Balentine Dr., Ste. 335', 'Newark', '94560-5359', 'CA', '39899 Balentine Drive, Suite 335', '39899 Balentine Dr., Ste. 335', 'Newark', '94560-5359', 'CA', None, None, None, '2005-08-29', '2015-07-31', 1, '0728', 'Directly funded', '00', 'County Office of Education (COE)', '65', 'K-12 Schools (Public)', 'TRAD', 'Traditional', 'ELEMHIGH', 'Elementary-High Combination', 'K-12', 'K-12', 'P', 0, 37.521436, -121.99391, None, None, None, None, None, None, None, None, None, '2015-09-01')\n('01100170112607', '0691051', '10947', 'Active', 'Alameda', 'Alameda County Office of Education', 'Envision Academy for Arts & Technology', '1515 Webster Street', '1515 Webster St.', 'Oakland', '94612-3355', 'CA', '1515 Webster Street', '1515 Webster St.', 'Oakland', '94612', 'CA', '(510) 596-8901', None, 'www.envisionacademy.org/', '2006-08-28', None, 1, '0811', 'Directly funded', '00', 'County Office of Education (COE)', '66', 'High Schools (Public)', 'TRAD', 'Traditional', 'HS', 'High School', '9-12', '9-12', 'N', 0, 37.80452, -122.26815, 'Laura', 'Robell', 'laura@envisionacademy.org', None, None, None, None, None, None, '2015-06-18')\n('01100170118489', '0691051', '12283', 'Closed', 'Alameda', 'Alameda County Office of Education', 'Aspire California College Preparatory Academy', '2125 Jefferson Avenue', '2125 Jefferson Ave.', 'Berkeley', '94703-1414', 'CA', '1001 22nd Avenue, Suite 100', '1001 22nd Ave., Ste. 100', 'Oakland', '94606', 'CA', None, None, 'www.aspirepublicschools.org', '2008-08-21', '2015-06-30', 1, '1049', 'Directly funded', '00', 'County Office of Education (COE)', '66', 'High Schools (Public)', 'TRAD', 'Traditional', 'HS', 'High School', '9-12', '9-12', 'N', 0, 37.868991, -122.27844, None, None, None, None, None, None, None, None, None, '2015-07-01')\n('01100170123968', '0691051', '12844', 'Active', 'Alameda', 'Alameda County Office of Education', 'Community School for Creative Education', '2111 International Boulevard', '2111 International Blvd.', 'Oakland', '94606-4903', 'CA', '2111 International Boulevard', '2111 International Blvd.', 'Oakland', '94606-4903', 'CA', '(510) 686-4131', None, 'www.communityschoolforcreativeeducation.org', '2011-08-22', None, 1, '1284', 'Directly funded', '00', 'County Office of Education (COE)', '60', 'Elementary Schools (Public)', 'TRAD', 'Traditional', 'ELEM', 'Elementary', 'K-8', 'K-7', 'N', 0, 37.784648, -122.23863, 'Clifford', 'Thompson', 'cliffordt@communityschoolforcreativeeducation.org', None, None, None, None, None, None, '2016-07-18')"
+    },
+    {
+        "db_id": "financial",
+        "table_name": "district",
+        "schema": "[district_id, A2, A3, A4, A5, A6, A7, A8, A9, A10, A11, A12, A13, A14, A15, A16]\n(1, 'Hl.m. Praha', 'Prague', '1204953', '0', '0', '0', 1, 1, 100.0, 12541, 0.2, 0.43, 167, 85677, 99107)\n(2, 'Benesov', 'central Bohemia', '88884', '80', '26', '6', 2, 5, 46.7, 8507, 1.6, 1.85, 132, 2159, 2674)\n(3, 'Beroun', 'central Bohemia', '75232', '55', '26', '4', 1, 5, 41.7, 8980, 1.9, 2.21, 111, 2824, 2813)\n(4, 'Kladno', 'central Bohemia', '149893', '63', '29', '6', 2, 6, 67.4, 9753, 4.6, 5.05, 109, 5244, 5892)\n(5, 'Kolin', 'central Bohemia', '95616', '65', '30', '4', 1, 6, 51.4, 9307, 3.8, 4.43, 118, 2616, 3040)"
+    },
+    {
+        "db_id": "financial",
+        "table_name": "trans",
+        "schema": "[trans_id, account_id, date, type, operation, amount, balance, k_symbol, bank, account]\n(1, 1, '1995-03-24', 'PRIJEM', 'VKLAD', 1000, 1000, None, None, None)\n(5, 1, '1995-04-13', 'PRIJEM', 'PREVOD Z UCTU', 3679, 4679, None, 'AB', 41403269)\n(6, 1, '1995-05-13', 'PRIJEM', 'PREVOD Z UCTU', 3679, 20977, None, 'AB', 41403269)\n(7, 1, '1995-06-13', 'PRIJEM', 'PREVOD Z UCTU', 3679, 26835, None, 'AB', 41403269)\n(8, 1, '1995-07-13', 'PRIJEM', 'PREVOD Z UCTU', 3679, 30415, None, 'AB', 41403269)"
+    },
+    {
+        "db_id": "financial",
+        "table_name": "loan",
+        "schema": "[loan_id, account_id, date, amount, duration, payments, status]\n(4959, 2, '1994-01-05', 80952, 24, 3373.0, 'A')\n(4961, 19, '1996-04-29', 30276, 12, 2523.0, 'B')\n(4962, 25, '1997-12-08', 30276, 12, 2523.0, 'A')\n(4967, 37, '1998-10-14', 318480, 60, 5308.0, 'D')\n(4968, 38, '1998-04-19', 110736, 48, 2307.0, 'C')"
+    },
+    {
+        "db_id": "financial",
+        "table_name": "account",
+        "schema": "[account_id, district_id, frequency, date]\n(1, 18, 'POPLATEK MESICNE', '1995-03-24')\n(2, 1, 'POPLATEK MESICNE', '1993-02-26')\n(3, 5, 'POPLATEK MESICNE', '1997-07-07')\n(4, 12, 'POPLATEK MESICNE', '1996-02-21')\n(5, 15, 'POPLATEK MESICNE', '1997-05-30')"
+    },
+    {
+        "db_id": "financial",
+        "table_name": "card",
+        "schema": "[card_id, disp_id, type, issued]\n(1, 9, 'gold', '1998-10-16')\n(2, 19, 'classic', '1998-03-13')\n(3, 41, 'gold', '1995-09-03')\n(4, 42, 'classic', '1998-11-26')\n(5, 51, 'junior', '1995-04-24')"
+    },
+    {
+        "db_id": "financial",
+        "table_name": "disp",
+        "schema": "[disp_id, client_id, account_id, type]\n(1, 1, 1, 'OWNER')\n(2, 2, 2, 'OWNER')\n(3, 3, 2, 'DISPONENT')\n(4, 4, 3, 'OWNER')\n(5, 5, 3, 'DISPONENT')"
+    },
+    {
+        "db_id": "toxicology",
+        "table_name": "bond",
+        "schema": "[bond_id, molecule_id, bond_type]\n('TR000_1_2', 'TR000', '-')\n('TR000_2_3', 'TR000', '-')\n('TR000_2_4', 'TR000', '-')\n('TR000_2_5', 'TR000', '-')\n('TR001_10_11', 'TR001', '=')"
+    },
+    {
+        "db_id": "toxicology",
+        "table_name": "bond AS T",
+        "schema": "[bond_id, molecule_id, bond_type]\n('TR000_1_2', 'TR000', '-')\n('TR000_2_3', 'TR000', '-')\n('TR000_2_4', 'TR000', '-')\n('TR000_2_5', 'TR000', '-')\n('TR001_10_11', 'TR001', '=')"
+    },
+    {
+        "db_id": "toxicology",
+        "table_name": "atom AS T",
+        "schema": "[atom_id, molecule_id, element]\n('TR000_1', 'TR000', 'cl')\n('TR000_2', 'TR000', 'c')\n('TR000_3', 'TR000', 'cl')\n('TR000_4', 'TR000', 'cl')\n('TR000_5', 'TR000', 'h')"
+    },
+    {
+        "db_id": "toxicology",
+        "table_name": "molecule AS T",
+        "schema": "[molecule_id, label]\n('TR000', '+')\n('TR001', '+')\n('TR002', '-')\n('TR004', '-')\n('TR006', '+')"
+    },
+    {
+        "db_id": "toxicology",
+        "table_name": "molecule AS t",
+        "schema": "[molecule_id, label]\n('TR000', '+')\n('TR001', '+')\n('TR002', '-')\n('TR004', '-')\n('TR006', '+')"
+    },
+    {
+        "db_id": "toxicology",
+        "table_name": "connected AS T",
+        "schema": "[atom_id, atom_id2, bond_id]\n('TR000_1', 'TR000_2', 'TR000_1_2')\n('TR000_2', 'TR000_1', 'TR000_1_2')\n('TR000_2', 'TR000_3', 'TR000_2_3')\n('TR000_3', 'TR000_2', 'TR000_2_3')\n('TR000_2', 'TR000_4', 'TR000_2_4')"
+    },
+    {
+        "db_id": "toxicology",
+        "table_name": "bond AS T1",
+        "schema": "[bond_id, molecule_id, bond_type]\n('TR000_1_2', 'TR000', '-')\n('TR000_2_3', 'TR000', '-')\n('TR000_2_4', 'TR000', '-')\n('TR000_2_5', 'TR000', '-')\n('TR001_10_11', 'TR001', '=')"
+    },
+    {
+        "db_id": "toxicology",
+        "table_name": "bond AS t",
+        "schema": "[bond_id, molecule_id, bond_type]\n('TR000_1_2', 'TR000', '-')\n('TR000_2_3', 'TR000', '-')\n('TR000_2_4', 'TR000', '-')\n('TR000_2_5', 'TR000', '-')\n('TR001_10_11', 'TR001', '=')"
+    },
+    {
+        "db_id": "card_games",
+        "table_name": "cards",
+        "schema": "[id, artist, asciiName, availability, borderColor, cardKingdomFoilId, cardKingdomId, colorIdentity, colorIndicator, colors, convertedManaCost, duelDeck, edhrecRank, faceConvertedManaCost, faceName, flavorName, flavorText, frameEffects, frameVersion, hand, hasAlternativeDeckLimit, hasContentWarning, hasFoil, hasNonFoil, isAlternative, isFullArt, isOnlineOnly, isOversized, isPromo, isReprint, isReserved, isStarter, isStorySpotlight, isTextless, isTimeshifted, keywords, layout, leadershipSkills, life, loyalty, manaCost, mcmId, mcmMetaId, mtgArenaId, mtgjsonV4Id, mtgoFoilId, mtgoId, multiverseId, name, number, originalReleaseDate, originalText, originalType, otherFaceIds, power, printings, promoTypes, purchaseUrls, rarity, scryfallId, scryfallIllustrationId, scryfallOracleId, setCode, side, subtypes, supertypes, tcgplayerProductId, text, toughness, type, types, uuid, variations, watermark]\n(1, 'Pete Venters', None, 'mtgo,paper', 'black', None, '122719', 'W', None, 'W', 7.0, None, 15650, None, None, None, None, None, '2003', None, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 'First strike', 'normal', None, None, None, '{5}{W}{W}', '16165', '156', None, 'ad41be73-582f-58ed-abd4-a88c1f616ac3', '27501', '27500', '130550', \"Ancestor's Chosen\", '1', None, \"First strike (This creature deals combat damage before creatures without first strike.)\\nWhen Ancestor's Chosen comes into play, you gain 1 life for each card in your graveyard.\", 'Creature - Human Cleric', None, '4', '10E,JUD,UMA', None, \"{'cardKingdom': 'https://mtgjson.com/links/9fb51af0ad6f0736', 'cardmarket': 'https://mtgjson.com/links/ace8861194ee0b6a', 'tcgplayer': 'https://mtgjson.com/links/4843cea124a0d515'}\", 'uncommon', '7a5cd03c-4227-4551-aa4b-7d119f0468b5', 'be2f7173-c8b7-4172-a388-9b2c6b3c16e5', 'fc2ccab7-cab1-4463-b73d-898070136d74', '10E', None, 'Human,Cleric', None, '15032', \"First strike (This creature deals combat damage before creatures without first strike.)\\nWhen Ancestor's Chosen enters the battlefield, you gain 1 life for each card in your graveyard.\", '4', 'Creature — Human Cleric', 'Creature', '5f8287b1-5bb6-5f4c-ad17-316a40d5bb0c', 'b7c19924-b4bf-56fc-aa73-f586e940bd42', None)\n(2, 'Volkan Baǵa', None, 'mtgo,paper', 'black', None, '122720', 'W', None, 'W', 5.0, None, 12702, None, None, None, 'Every tear shed is a drop of immortality.', None, '2003', None, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 'Flying', 'normal', None, None, None, '{4}{W}', '16166', '176', None, '9eb2e54c-a12b-5e88-a9c0-d8c84c52d59c', '26993', '26992', '129465', 'Angel of Mercy', '2', None, \"Flying (This creature can't be blocked except by creatures with flying or reach.)\\nWhen Angel of Mercy comes into play, you gain 3 life.\", 'Creature - Angel', None, '3', '10E,8ED,9ED,DDC,DVD,IMA,INV,JMP,MB1,P02,PS11,PSAL,S99', None, \"{'cardKingdom': 'https://mtgjson.com/links/027095d094e58f5b', 'cardmarket': 'https://mtgjson.com/links/f6fb5098e1cd1b1e', 'tcgplayer': 'https://mtgjson.com/links/56c4b57293f350ef'}\", 'uncommon', '8f7980d4-da43-4d6d-ad16-14b8a34ae91d', 'e4d6c53f-e936-4be8-8b70-47c2be863b20', 'a2daaf32-dbfe-4618-892e-0da24f63a44a', '10E', None, 'Angel', None, '15033', 'Flying\\nWhen Angel of Mercy enters the battlefield, you gain 3 life.', '3', 'Creature — Angel', 'Creature', '57aaebc1-850c-503d-9f6e-bb8d00d8bf7c', '8fd4e2eb-3eb4-50ea-856b-ef638fa47f8a', None)\n(3, 'Justin Sweet', None, 'mtgo,paper', 'black', None, '122725', 'W', None, 'W', 4.0, None, 11081, None, None, None, None, None, '2003', None, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 'Flying', 'normal', None, None, None, '{3}{W}', '16171', '368', None, 'c0de6fd8-367a-50fb-b2f4-2b8fa5aeb7d9', '27473', '27472', '129470', 'Aven Cloudchaser', '7', None, \"Flying (This creature can't be blocked except by creatures with flying or reach.)\\nWhen Aven Cloudchaser comes into play, destroy target enchantment.\", 'Creature - Bird Soldier', None, '2', '10E,8ED,9ED,ODY', None, \"{'cardKingdom': 'https://mtgjson.com/links/9246105d88032a9f', 'cardmarket': 'https://mtgjson.com/links/dcdfe48e6a8f9e1e', 'tcgplayer': 'https://mtgjson.com/links/3ce595aabe276f80'}\", 'common', '407110e9-19af-4ff5-97b2-c03225031a73', '2eb663cd-020a-46d8-a6d9-bb63d4b5c848', '48bda7dd-d023-41e8-8c28-e0cfda0d07ca', '10E', None, 'Bird,Soldier', None, '15045', \"Flying (This creature can't be blocked except by creatures with flying or reach.)\\nWhen Aven Cloudchaser enters the battlefield, destroy target enchantment.\", '2', 'Creature — Bird Soldier', 'Creature', '8ac972b5-9f6e-5cc8-91c3-b9a40a98232e', '6adaf14d-43e3-521a-adf1-960c808e5b1a', None)\n(4, 'Matthew D. Wilson', None, 'mtgo,paper', 'black', '123094', '122726', 'W', None, 'W', 4.0, None, 12901, None, None, None, 'The perfect antidote for a tightly packed formation.', None, '2003', None, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, None, 'normal', None, None, None, '{3}{W}', '16172', '423', None, 'bfbb65b1-f1bb-5355-9495-fb094f9b0782', '27327', '27326', '129477', 'Ballista Squad', '8', None, '{X}{W}, {T}: Ballista Squad deals X damage to target attacking or blocking creature.', 'Creature - Human Rebel', None, '2', '10E,9ED,MMQ', None, \"{'cardKingdom': 'https://mtgjson.com/links/d702da7661073a13', 'cardKingdomFoil': 'https://mtgjson.com/links/fbb773ed07f117ac', 'cardmarket': 'https://mtgjson.com/links/f04d4a0c97f986fe', 'tcgplayer': 'https://mtgjson.com/links/1e6874adc6cbd28f'}\", 'uncommon', 'a4d17394-b9c4-43f6-9a6d-2c7c7ecb1d74', '8464353d-099c-47ba-a0eb-e08b7b76b464', '5973725c-6e1f-4d7e-bcef-3d867ea4c244', '10E', None, 'Human,Rebel', None, '15048', '{X}{W}, {T}: Ballista Squad deals X damage to target attacking or blocking creature.', '2', 'Creature — Human Rebel', 'Creature', 'a69b404f-144a-5317-b10e-7d9dce135b24', None, None)\n(5, 'Rebecca Guay', None, 'mtgo,paper', 'black', '123095', '122727', 'W', None, 'W', 1.0, None, 3988, None, None, None, 'Life is measured in inches. To a healer, every one of those inches is precious.', None, '2003', None, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, None, 'normal', None, None, None, '{W}', '16173', '432', None, 'a634f6df-fd74-54d9-a56c-3fdd2ad3e9bf', '27095', '27094', '132106', 'Bandage', '9', None, 'Prevent the next 1 damage that would be dealt to target creature or player this turn.\\nDraw a card.', 'Instant', None, None, '10E,STH,TPR', None, \"{'cardKingdom': 'https://mtgjson.com/links/a072a876146b29bc', 'cardKingdomFoil': 'https://mtgjson.com/links/30995197ba8fc8c1', 'cardmarket': 'https://mtgjson.com/links/35a66170a09a59c7', 'tcgplayer': 'https://mtgjson.com/links/d091fd8b400df945'}\", 'common', 'c9c17e3b-4d7f-4472-afe1-8e9358b82f2c', 'af3d1d9e-8a04-4ba5-aa96-9ea678daaa2b', 'c664df64-0103-462b-a0f8-c483b152974a', '10E', None, None, None, '15049', 'Prevent the next 1 damage that would be dealt to any target this turn.\\nDraw a card.', None, 'Instant', 'Instant', '6d268c95-c176-5766-9a46-c14f739aba1c', None, None)"
+    },
+    {
+        "db_id": "card_games",
+        "table_name": "set_translations",
+        "schema": "[id, language, setCode, translation]\n(1, 'Chinese Simplified', '10E', '核心系列第十版')\n(2, 'Chinese Traditional', '10E', '核心系列第十版')\n(3, 'French', '10E', 'Dixième édition')\n(4, 'German', '10E', 'Hauptset Zehnte Edition')\n(5, 'Italian', '10E', 'Set Base Decima Edizione')"
+    },
+    {
+        "db_id": "card_games",
+        "table_name": "foreign_data",
+        "schema": "[id, flavorText, language, multiverseid, name, text, type, uuid]\n(1, '„Es ist der Wille aller, und meine Hand, die ihn ausführt.\"', 'German', 148411, 'Ausgewählter der Ahnfrau', 'Erstschlag (Diese Kreatur fügt Kampfschaden vor Kreaturen ohne Erstschlag zu.)\\nWenn der Ausgewählte der Ahnfrau ins Spiel kommt, erhältst du 1 Lebenspunkt für jede Karte in deinem Friedhof dazu.', 'Kreatur — Mensch, Kleriker', '5f8287b1-5bb6-5f4c-ad17-316a40d5bb0c')\n(2, '\"La voluntad de todos, realizada por mi mano.\"', 'Spanish', 150317, 'Elegido de la Antepasada', 'Daña primero. (Esta criatura hace daño de combate antes que las criaturas sin la habilidad de dañar primero.)\\nCuando el Elegido de la Antepasada entre en juego, ganas 1 vida por cada carta en tu cementerio.', 'Criatura — Clérigo humano', '5f8287b1-5bb6-5f4c-ad17-316a40d5bb0c')\n(3, '« La volonté de tous passe par ma main. »', 'French', 149934, \"Élu de l'Ancêtre\", \"Initiative (Cette créature inflige des blessures de combat avant les créatures sans l'initiative.)\\nQuand l'Élu de l'Ancêtre arrive en jeu, vous gagnez 1 point de vie pour chaque carte dans votre cimetière.\", 'Créature : humain et clerc', '5f8287b1-5bb6-5f4c-ad17-316a40d5bb0c')\n(4, '\"La volontà di tutti, eseguita per mano mia.\"', 'Italian', 148794, \"Prescelto dell'Antenata\", \"Attacco improvviso (Questa creatura infligge danno da combattimento prima delle creature senza attacco improvviso.)\\nQuando il Prescelto dell'Antenata entra in gioco, guadagni 1 punto vita per ogni carta nel tuo cimitero.\", 'Creatura — Chierico Umano', '5f8287b1-5bb6-5f4c-ad17-316a40d5bb0c')\n(5, 'すべての意思を、この手で成そう。', 'Japanese', 148028, '祖神に選ばれし者', '先制攻撃 （このクリーチャーは先制攻撃を持たないクリーチャーよりも先に戦闘ダメージを与える。）\\n祖神に選ばれし者が場に出たとき、あなたはあなたの墓地にあるカード１枚につき１点のライフを得る。', 'クリーチャー — 人間・クレリック', '5f8287b1-5bb6-5f4c-ad17-316a40d5bb0c')"
+    },
+    {
+        "db_id": "card_games",
+        "table_name": "sets",
+        "schema": "[id, baseSetSize, block, booster, code, isFoilOnly, isForeignOnly, isNonFoilOnly, isOnlineOnly, isPartialPreview, keyruneCode, mcmId, mcmIdExtras, mcmName, mtgoCode, name, parentCode, releaseDate, tcgplayerGroupId, totalSetSize, type]\n(1, 383, 'Core Set', \"{'default': {'boosters': [{'contents': {'basic': 1, 'common': 10, 'rare': 1, 'uncommon': 3}, 'weight': 1913922}, {'contents': {'basic': 1, 'common': 9, 'foilCommon': 1, 'rare': 1, 'uncommon': 3}, 'weight': 318987}, {'contents': {'basic': 1, 'common': 10, \", '10E', 0, 0, 0, 0, 0, '10E', 74, None, 'Tenth Edition', '10E', 'Tenth Edition', None, '2007-07-13', 1, 508, 'core')\n(2, 302, 'Core Set', \"{'default': {'boosters': [{'contents': {'common': 11, 'rare': 1, 'uncommon': 3}, 'weight': 1}], 'boostersTotalWeight': 1, 'sheets': {'common': {'cards': {'0ab4e3e6-f9fe-5fdc-9697-fd20690a0e15': 1, '0b326a61-0389-54e2-ac58-7bb47ca88202': 1, '0f099574-e9f7-\", '2ED', 0, 0, 1, 0, 0, '2ED', None, None, None, None, 'Unlimited Edition', None, '1993-12-01', 115, 302, 'core')\n(3, 332, None, \"{'default': {'boosters': [{'contents': {'common': 8, 'dedicatedFoil2xm': 2, 'rareMythic': 2, 'uncommon': 3}, 'weight': 1}], 'boostersTotalWeight': 1, 'sheets': {'common': {'balanceColors': True, 'cards': {'01df4e32-7fe4-5b8d-9460-0f08fa29153e': 1, '032c60\", '2XM', 0, 0, 0, 0, 0, '2XM', 3204, 3209, 'Double Masters', '2XM', 'Double Masters', None, '2020-08-07', 2655, 384, 'masters')\n(4, 306, 'Core Set', \"{'default': {'boosters': [{'contents': {'common': 11, 'rare': 1, 'uncommon': 3}, 'weight': 1}], 'boostersTotalWeight': 1, 'sheets': {'common': {'cards': {'06ab1cc7-cc5e-55aa-a1d6-0c174ef0af7d': 1, '08313acd-3e35-59b0-b018-c197d67bb74b': 1, '08c502ff-65f8-\", '3ED', 0, 0, 1, 0, 0, '3ED', None, None, None, None, 'Revised Edition', None, '1994-04-01', 97, 306, 'core')\n(5, 378, None, None, '4BB', 0, 1, 0, 0, 0, '4ED', None, None, None, None, 'Fourth Edition Foreign Black Border', None, '1995-04-01', None, 378, 'core')"
+    },
+    {
+        "db_id": "card_games",
+        "table_name": "legalities",
+        "schema": "[id, format, status, uuid]\n(1, 'commander', 'Legal', '5f8287b1-5bb6-5f4c-ad17-316a40d5bb0c')\n(2, 'duel', 'Legal', '5f8287b1-5bb6-5f4c-ad17-316a40d5bb0c')\n(3, 'legacy', 'Legal', '5f8287b1-5bb6-5f4c-ad17-316a40d5bb0c')\n(4, 'modern', 'Legal', '5f8287b1-5bb6-5f4c-ad17-316a40d5bb0c')\n(5, 'penny', 'Legal', '5f8287b1-5bb6-5f4c-ad17-316a40d5bb0c')"
+    },
+    {
+        "db_id": "codebase_community",
+        "table_name": "users",
+        "schema": "[Id, Reputation, CreationDate, DisplayName, LastAccessDate, WebsiteUrl, Location, AboutMe, Views, UpVotes, DownVotes, AccountId, Age, ProfileImageUrl]\n(-1, 1, '2010-07-19 06:55:26.0', 'Community', '2010-07-19 06:55:26.0', 'http://meta.stackexchange.com/', 'on the server farm', '<p>Hi, I\\'m not really a person.</p>\\n\\n<p>I\\'m a background process that helps keep this site clean!</p>\\n\\n<p>I do things like</p>\\n\\n<ul>\\n<li>Randomly poke old unanswered questions every hour so they get some attention</li>\\n<li>Own community questions and answers so nobody gets unnecessary reputation from them</li>\\n<li>Own downvotes on spam/evil posts that get permanently deleted</li>\\n<li>Own suggested edits from anonymous users</li>\\n<li><a href=\"http://meta.stackexchange.com/a/92006\">Remove abandoned questions</a></li>\\n</ul>\\n', 0, 5007, 1920, -1, None, None)\n(2, 101, '2010-07-19 14:01:36.0', 'Geoff Dalgas', '2013-11-12 22:07:23.0', 'http://stackoverflow.com', 'Corvallis, OR', '<p>Developer on the StackOverflow team.  Find me on</p>\\n\\n<p><a href=\"http://www.twitter.com/SuperDalgas\" rel=\"nofollow\">Twitter</a>\\n<br><br>\\n<a href=\"http://blog.stackoverflow.com/2009/05/welcome-stack-overflow-valued-associate-00003/\">Stack Overflow Valued Associate #00003</a></p>\\n', 25, 3, 0, 2, 37, None)\n(3, 101, '2010-07-19 15:34:50.0', 'Jarrod Dixon', '2014-08-08 06:42:58.0', 'http://stackoverflow.com', 'New York, NY', '<p><a href=\"http://blog.stackoverflow.com/2009/01/welcome-stack-overflow-valued-associate-00002/\">Developer on the Stack Overflow team</a>.</p>\\n\\n<p>Was dubbed <strong>SALTY SAILOR</strong> by Jeff Atwood, as filth and flarn would oft-times fly when dealing with a particularly nasty bug!</p>\\n\\n<ul>\\n<li>Twitter me: <a href=\"http://twitter.com/jarrod_dixon\" rel=\"nofollow\">jarrod_dixon</a></li>\\n<li>Email me: jarrod.m.dixon@gmail.com</li>\\n</ul>\\n', 22, 19, 0, 3, 35, None)\n(4, 101, '2010-07-19 19:03:27.0', 'Emmett', '2014-01-02 09:31:02.0', 'http://minesweeperonline.com', 'San Francisco, CA', '<p>currently at a startup in SF</p>\\n\\n<p>formerly a dev at Stack Exchange :)</p>\\n', 11, 0, 0, 1998, 28, 'http://i.stack.imgur.com/d1oHX.jpg')\n(5, 6792, '2010-07-19 19:03:57.0', 'Shane', '2014-08-13 00:23:47.0', 'http://www.statalgo.com', 'New York, NY', '<p>Quantitative researcher focusing on statistics and machine learning methods in finance. Primarily use R, C++, Python, various databases (including OneTick and KDB), and LaTeX on a daily basis. </p>\\n\\n<ul>\\n<li>Twitter: @statalgo</li>\\n<li>Blog: <a href=\"http://www.statalgo.com\" rel=\"nofollow\">http://www.statalgo.com</a> (largely inactive)</li>\\n<li>Former moderator on data analysis stack exchange site: <a href=\"http://stats.stackexchange.com/\">http://stats.stackexchange.com/</a></li>\\n<li>Proposer of Quantitative Finance stack exchange site: <a href=\"http://area51.stackexchange.com/proposals/117/quantitative-finance?referrer=EZoOPpokWeo1\">http://area51.stackexchange.com/proposals/117/quantitative-finance?referrer=EZoOPpokWeo1</a></li>\\n</ul>\\n', 1145, 662, 5, 54503, 35, None)"
+    },
+    {
+        "db_id": "codebase_community",
+        "table_name": "votes",
+        "schema": "[Id, PostId, VoteTypeId, CreationDate, UserId, BountyAmount]\n(1, 3, 2, '2010-07-19', None, None)\n(2, 2, 2, '2010-07-19', None, None)\n(3, 5, 2, '2010-07-19', None, None)\n(4, 5, 2, '2010-07-19', None, None)\n(5, 3, 2, '2010-07-19', None, None)"
+    },
+    {
+        "db_id": "codebase_community",
+        "table_name": "badges",
+        "schema": "[Id, UserId, Name, Date]\n(1, 5, 'Teacher', '2010-07-19 19:39:07.0')\n(2, 6, 'Teacher', '2010-07-19 19:39:07.0')\n(3, 8, 'Teacher', '2010-07-19 19:39:07.0')\n(4, 23, 'Teacher', '2010-07-19 19:39:07.0')\n(5, 36, 'Teacher', '2010-07-19 19:39:07.0')"
+    },
+    {
+        "db_id": "codebase_community",
+        "table_name": "posts",
+        "schema": "[Id, PostTypeId, AcceptedAnswerId, CreaionDate, Score, ViewCount, Body, OwnerUserId, LasActivityDate, Title, Tags, AnswerCount, CommentCount, FavoriteCount, LastEditorUserId, LastEditDate, CommunityOwnedDate, ParentId, ClosedDate, OwnerDisplayName, LastEditorDisplayName]\n(1, 1, 15, '2010-07-19 19:12:12.0', 23, 1278, '<p>How should I elicit prior distributions from experts when fitting a Bayesian model?</p>\\n', 8, '2010-09-15 21:08:26.0', 'Eliciting priors from experts', '<bayesian><prior><elicitation>', 5, 1, 14, None, None, None, None, None, None, None)\n(2, 1, 59, '2010-07-19 19:12:57.0', 22, 8198, '<p>In many different statistical methods there is an \"assumption of normality\".  What is \"normality\" and how do I know if there is normality?</p>\\n', 24, '2012-11-12 09:21:54.0', 'What is normality?', '<distributions><normality>', 7, 1, 8, 88, '2010-08-07 17:56:44.0', None, None, None, None, None)\n(3, 1, 5, '2010-07-19 19:13:28.0', 54, 3613, '<p>What are some valuable Statistical Analysis open source projects available right now?</p>\\n\\n<p>Edit: as pointed out by Sharpie, valuable could mean helping you get things done faster or more cheaply.</p>\\n', 18, '2013-05-27 14:48:36.0', 'What are some valuable Statistical Analysis open source projects?', '<software><open-source>', 19, 4, 36, 183, '2011-02-12 05:50:03.0', '2010-07-19 19:13:28.0', None, None, None, None)\n(4, 1, 135, '2010-07-19 19:13:31.0', 13, 5224, \"<p>I have two groups of data.  Each with a different distribution of multiple variables.  I'm trying to determine if these two groups' distributions are different in a statistically significant way.  I have the data in both raw form and binned up in easier to deal with discrete categories with frequency counts in each.  </p>\\n\\n<p>What tests/procedures/methods should I use to determine whether or not these two groups are significantly different and how do I do that in SAS or R (or Orange)?</p>\\n\", 23, '2010-09-08 03:00:19.0', 'Assessing the significance of differences in distributions', '<distributions><statistical-significance>', 5, 2, 2, None, None, None, None, None, None, None)\n(5, 2, None, '2010-07-19 19:14:43.0', 81, None, '<p>The R-project</p>\\n\\n<p><a href=\"http://www.r-project.org/\">http://www.r-project.org/</a></p>\\n\\n<p>R is valuable and significant because it was the first widely-accepted Open-Source alternative to big-box packages.  It\\'s mature, well supported, and a standard within many scientific communities.</p>\\n\\n<ul>\\n<li><a href=\"http://www.inside-r.org/why-use-r\">Some reasons why it is useful and valuable</a> </li>\\n<li>There are some nice tutorials <a href=\"http://gettinggeneticsdone.blogspot.com/search/label/ggplot2\">here</a>.</li>\\n</ul>\\n', 23, '2010-07-19 19:21:15.0', None, None, None, 3, None, 23, '2010-07-19 19:21:15.0', '2010-07-19 19:14:43.0', 3, None, None, None)"
+    },
+    {
+        "db_id": "codebase_community",
+        "table_name": "comments",
+        "schema": "[Id, PostId, Score, Text, CreationDate, UserId, UserDisplayName]\n(1, 3, 5, \"Could be a poster child fo argumentative and subjective.  At the least, need to define 'valuable'.\", '2010-07-19 19:15:52.0', 13, None)\n(2, 5, 0, \"Yes, R is nice- but WHY is it 'valuable'.\", '2010-07-19 19:16:14.0', 13, None)\n(3, 9, 0, 'Again- why?  How would I convince my boss to use this over, say, Excel.', '2010-07-19 19:18:54.0', 13, None)\n(4, 5, 11, \"It's mature, well supported, and a standard within certain scientific communities (popular in our AI department, for example)\", '2010-07-19 19:19:56.0', 37, None)\n(5, 3, 1, 'Define \"valuable\"...', '2010-07-19 19:20:28.0', 5, None)"
+    },
+    {
+        "db_id": "codebase_community",
+        "table_name": "postHistory",
+        "schema": "[Id, PostHistoryTypeId, PostId, RevisionGUID, CreationDate, UserId, Text, Comment, UserDisplayName]\n(1, 2, 1, 'e58bf7fd-e60f-4c58-a6e4-dfc91cf98a69', '2010-07-19 19:12:12.0', 8, 'How should I elicit prior distributions from experts when fitting a Bayesian model?', '', '')\n(2, 1, 1, 'e58bf7fd-e60f-4c58-a6e4-dfc91cf98a69', '2010-07-19 19:12:12.0', 8, 'Eliciting priors from experts', '', '')\n(3, 3, 1, 'e58bf7fd-e60f-4c58-a6e4-dfc91cf98a69', '2010-07-19 19:12:12.0', 8, '<bayesian><prior><elicitation>', '', '')\n(4, 2, 2, '18bf9150-f1cb-432d-b7b7-26d2f8e33581', '2010-07-19 19:12:57.0', 24, 'In many different statistical methods there is an \"assumption of normality\".  What is \"normality\" and how do I know if there is normality?', '', '')\n(5, 1, 2, '18bf9150-f1cb-432d-b7b7-26d2f8e33581', '2010-07-19 19:12:57.0', 24, 'What is normality?', '', '')"
+    },
+    {
+        "db_id": "codebase_community",
+        "table_name": "tags",
+        "schema": "[Id, TagName, Count, ExcerptPostId, WikiPostId]\n(1, 'bayesian', 1342, 20258, 20257)\n(2, 'prior', 168, 62158, 62157)\n(3, 'elicitation', 6, None, None)\n(4, 'normality', 191, 67815, 67814)\n(5, 'open-source', 13, None, None)"
+    },
+    {
+        "db_id": "superhero",
+        "table_name": "publisher",
+        "schema": "[id, publisher_name]\n(1, '')\n(2, 'ABC Studios')\n(3, 'Dark Horse Comics')\n(4, 'DC Comics')\n(5, 'George Lucas')"
+    },
+    {
+        "db_id": "superhero",
+        "table_name": "hero_attribute",
+        "schema": "[hero_id, attribute_id, attribute_value]\n(1, 1, 80)\n(2, 1, 75)\n(3, 1, 95)\n(4, 1, 80)\n(5, 1, 85)"
+    },
+    {
+        "db_id": "superhero",
+        "table_name": "superhero",
+        "schema": "[id, superhero_name, full_name, gender_id, eye_colour_id, hair_colour_id, skin_colour_id, race_id, publisher_id, alignment_id, height_cm, weight_kg]\n(1, '3-D Man', 'Charles Chandler', 1, 9, 13, 1, 1, 13, 1, 188, 90)\n(2, 'A-Bomb', 'Richard Milhouse Jones', 1, 33, 1, 1, 24, 13, 1, 203, 441)\n(3, 'Abe Sapien', 'Abraham Sapien', 1, 7, 1, 7, 33, 3, 1, 191, 65)\n(4, 'Abin Sur', '-', 1, 7, 1, 23, 55, 4, 1, 185, 90)\n(5, 'Abomination', 'Emil Blonsky', 1, 14, 1, 1, 28, 13, 2, 203, 441)"
+    },
+    {
+        "db_id": "superhero",
+        "table_name": "superpower",
+        "schema": "[id, power_name]\n(1, 'Agility')\n(2, 'Accelerated Healing')\n(3, 'Lantern Power Ring')\n(4, 'Dimensional Awareness')\n(5, 'Cold Resistance')"
+    },
+    {
+        "db_id": "formula_1",
+        "table_name": "races",
+        "schema": "[raceId, year, round, circuitId, name, date, time, url]\n(1, 2009, 1, 1, 'Australian Grand Prix', '2009-03-29', '06:00:00', 'http://en.wikipedia.org/wiki/2009_Australian_Grand_Prix')\n(2, 2009, 2, 2, 'Malaysian Grand Prix', '2009-04-05', '09:00:00', 'http://en.wikipedia.org/wiki/2009_Malaysian_Grand_Prix')\n(3, 2009, 3, 17, 'Chinese Grand Prix', '2009-04-19', '07:00:00', 'http://en.wikipedia.org/wiki/2009_Chinese_Grand_Prix')\n(4, 2009, 4, 3, 'Bahrain Grand Prix', '2009-04-26', '12:00:00', 'http://en.wikipedia.org/wiki/2009_Bahrain_Grand_Prix')\n(5, 2009, 5, 4, 'Spanish Grand Prix', '2009-05-10', '12:00:00', 'http://en.wikipedia.org/wiki/2009_Spanish_Grand_Prix')"
+    },
+    {
+        "db_id": "formula_1",
+        "table_name": "drivers",
+        "schema": "[driverId, driverRef, number, code, forename, surname, dob, nationality, url]\n(1, 'hamilton', 44, 'HAM', 'Lewis', 'Hamilton', '1985-01-07', 'British', 'http://en.wikipedia.org/wiki/Lewis_Hamilton')\n(2, 'heidfeld', None, 'HEI', 'Nick', 'Heidfeld', '1977-05-10', 'German', 'http://en.wikipedia.org/wiki/Nick_Heidfeld')\n(3, 'rosberg', 6, 'ROS', 'Nico', 'Rosberg', '1985-06-27', 'German', 'http://en.wikipedia.org/wiki/Nico_Rosberg')\n(4, 'alonso', 14, 'ALO', 'Fernando', 'Alonso', '1981-07-29', 'Spanish', 'http://en.wikipedia.org/wiki/Fernando_Alonso')\n(5, 'kovalainen', None, 'KOV', 'Heikki', 'Kovalainen', '1981-10-19', 'Finnish', 'http://en.wikipedia.org/wiki/Heikki_Kovalainen')"
+    },
+    {
+        "db_id": "formula_1",
+        "table_name": "circuits",
+        "schema": "[circuitId, circuitRef, name, location, country, lat, lng, alt, url]\n(2, 'sepang', 'Sepang International Circuit', 'Kuala Lumpur', 'Malaysia', 2.76083, 101.738, None, 'http://en.wikipedia.org/wiki/Sepang_International_Circuit')\n(3, 'bahrain', 'Bahrain International Circuit', 'Sakhir', 'Bahrain', 26.0325, 50.5106, None, 'http://en.wikipedia.org/wiki/Bahrain_International_Circuit')\n(4, 'catalunya', 'Circuit de Barcelona-Catalunya', 'Montmeló', 'Spain', 41.57, 2.26111, None, 'http://en.wikipedia.org/wiki/Circuit_de_Barcelona-Catalunya')\n(5, 'istanbul', 'Istanbul Park', 'Istanbul', 'Turkey', 40.9517, 29.405, None, 'http://en.wikipedia.org/wiki/Istanbul_Park')\n(6, 'monaco', 'Circuit de Monaco', 'Monte-Carlo', 'Monaco', 43.7347, 7.42056, None, 'http://en.wikipedia.org/wiki/Circuit_de_Monaco')"
+    },
+    {
+        "db_id": "formula_1",
+        "table_name": "driverStandings",
+        "schema": "[driverStandingsId, raceId, driverId, points, position, positionText, wins]\n(1, 18, 1, 10.0, 1, '1', 1)\n(2, 18, 2, 8.0, 2, '2', 0)\n(3, 18, 3, 6.0, 3, '3', 0)\n(4, 18, 4, 5.0, 4, '4', 0)\n(5, 18, 5, 4.0, 5, '5', 0)"
+    },
+    {
+        "db_id": "formula_1",
+        "table_name": "lapTimes",
+        "schema": "[raceId, driverId, lap, position, time, milliseconds]\n(1, 1, 1, 13, '1:49.088', 109088)\n(1, 1, 2, 12, '1:33.740', 93740)\n(1, 1, 3, 11, '1:31.600', 91600)\n(1, 1, 4, 10, '1:31.067', 91067)\n(1, 1, 5, 10, '1:32.129', 92129)"
+    },
+    {
+        "db_id": "formula_1",
+        "table_name": "results",
+        "schema": "[resultId, raceId, driverId, constructorId, number, grid, position, positionText, positionOrder, points, laps, time, milliseconds, fastestLap, rank, fastestLapTime, fastestLapSpeed, statusId]\n(1, 18, 1, 1, 22, 1, 1, '1', 1, 10.0, 58, '1:34:50.616', 5690616, 39, 2, '1:27.452', '218.300', 1)\n(2, 18, 2, 2, 3, 5, 2, '2', 2, 8.0, 58, '+5.478', 5696094, 41, 3, '1:27.739', '217.586', 1)\n(3, 18, 3, 3, 7, 7, 3, '3', 3, 6.0, 58, '+8.163', 5698779, 41, 5, '1:28.090', '216.719', 1)\n(4, 18, 4, 4, 5, 11, 4, '4', 4, 5.0, 58, '+17.181', 5707797, 58, 7, '1:28.603', '215.464', 1)\n(5, 18, 5, 1, 23, 3, 5, '5', 5, 4.0, 58, '+18.014', 5708630, 43, 1, '1:27.418', '218.385', 1)"
+    },
+    {
+        "db_id": "formula_1",
+        "table_name": "pitStops",
+        "schema": "[raceId, driverId, stop, lap, time, duration, milliseconds]\n(841, 1, 1, 16, '17:28:24', '23.227', 23227)\n(841, 1, 2, 36, '17:59:29', '23.199', 23199)\n(841, 2, 1, 15, '17:27:41', '22.994', 22994)\n(841, 2, 2, 30, '17:51:32', '25.098', 25098)\n(841, 3, 1, 16, '17:29:00', '23.716', 23716)"
+    },
+    {
+        "db_id": "european_football_2",
+        "table_name": "Player_Attributes",
+        "schema": "[id, player_fifa_api_id, player_api_id, date, overall_rating, potential, preferred_foot, attacking_work_rate, defensive_work_rate, crossing, finishing, heading_accuracy, short_passing, volleys, dribbling, curve, free_kick_accuracy, long_passing, ball_control, acceleration, sprint_speed, agility, reactions, balance, shot_power, jumping, stamina, strength, long_shots, aggression, interceptions, positioning, vision, penalties, marking, standing_tackle, sliding_tackle, gk_diving, gk_handling, gk_kicking, gk_positioning, gk_reflexes]\n(1, 218353, 505942, '2016-02-18 00:00:00', 67, 71, 'right', 'medium', 'medium', 49, 44, 71, 61, 44, 51, 45, 39, 64, 49, 60, 64, 59, 47, 65, 55, 58, 54, 76, 35, 71, 70, 45, 54, 48, 65, 69, 69, 6, 11, 10, 8, 8)\n(2, 218353, 505942, '2015-11-19 00:00:00', 67, 71, 'right', 'medium', 'medium', 49, 44, 71, 61, 44, 51, 45, 39, 64, 49, 60, 64, 59, 47, 65, 55, 58, 54, 76, 35, 71, 70, 45, 54, 48, 65, 69, 69, 6, 11, 10, 8, 8)\n(3, 218353, 505942, '2015-09-21 00:00:00', 62, 66, 'right', 'medium', 'medium', 49, 44, 71, 61, 44, 51, 45, 39, 64, 49, 60, 64, 59, 47, 65, 55, 58, 54, 76, 35, 63, 41, 45, 54, 48, 65, 66, 69, 6, 11, 10, 8, 8)\n(4, 218353, 505942, '2015-03-20 00:00:00', 61, 65, 'right', 'medium', 'medium', 48, 43, 70, 60, 43, 50, 44, 38, 63, 48, 60, 64, 59, 46, 65, 54, 58, 54, 76, 34, 62, 40, 44, 53, 47, 62, 63, 66, 5, 10, 9, 7, 7)\n(5, 218353, 505942, '2007-02-22 00:00:00', 61, 65, 'right', 'medium', 'medium', 48, 43, 70, 60, 43, 50, 44, 38, 63, 48, 60, 64, 59, 46, 65, 54, 58, 54, 76, 34, 62, 40, 44, 53, 47, 62, 63, 66, 5, 10, 9, 7, 7)"
+    },
+    {
+        "db_id": "european_football_2",
+        "table_name": "Player",
+        "schema": "[id, player_api_id, player_name, player_fifa_api_id, birthday, height, weight]\n(1, 505942, 'Aaron Appindangoye', 218353, '1992-02-29 00:00:00', 182.88, 187)\n(2, 155782, 'Aaron Cresswell', 189615, '1989-12-15 00:00:00', 170.18, 146)\n(3, 162549, 'Aaron Doran', 186170, '1991-05-13 00:00:00', 170.18, 163)\n(4, 30572, 'Aaron Galindo', 140161, '1982-05-08 00:00:00', 182.88, 198)\n(5, 23780, 'Aaron Hughes', 17725, '1979-11-08 00:00:00', 182.88, 154)"
+    },
+    {
+        "db_id": "european_football_2",
+        "table_name": "Team_Attributes",
+        "schema": "[id, team_fifa_api_id, team_api_id, date, buildUpPlaySpeed, buildUpPlaySpeedClass, buildUpPlayDribbling, buildUpPlayDribblingClass, buildUpPlayPassing, buildUpPlayPassingClass, buildUpPlayPositioningClass, chanceCreationPassing, chanceCreationPassingClass, chanceCreationCrossing, chanceCreationCrossingClass, chanceCreationShooting, chanceCreationShootingClass, chanceCreationPositioningClass, defencePressure, defencePressureClass, defenceAggression, defenceAggressionClass, defenceTeamWidth, defenceTeamWidthClass, defenceDefenderLineClass]\n(1, 434, 9930, '2010-02-22 00:00:00', 60, 'Balanced', None, 'Little', 50, 'Mixed', 'Organised', 60, 'Normal', 65, 'Normal', 55, 'Normal', 'Organised', 50, 'Medium', 55, 'Press', 45, 'Normal', 'Cover')\n(2, 434, 9930, '2014-09-19 00:00:00', 52, 'Balanced', 48, 'Normal', 56, 'Mixed', 'Organised', 54, 'Normal', 63, 'Normal', 64, 'Normal', 'Organised', 47, 'Medium', 44, 'Press', 54, 'Normal', 'Cover')\n(3, 434, 9930, '2015-09-10 00:00:00', 47, 'Balanced', 41, 'Normal', 54, 'Mixed', 'Organised', 54, 'Normal', 63, 'Normal', 64, 'Normal', 'Organised', 47, 'Medium', 44, 'Press', 54, 'Normal', 'Cover')\n(4, 77, 8485, '2010-02-22 00:00:00', 70, 'Fast', None, 'Little', 70, 'Long', 'Organised', 70, 'Risky', 70, 'Lots', 70, 'Lots', 'Organised', 60, 'Medium', 70, 'Double', 70, 'Wide', 'Cover')\n(5, 77, 8485, '2011-02-22 00:00:00', 47, 'Balanced', None, 'Little', 52, 'Mixed', 'Organised', 53, 'Normal', 48, 'Normal', 52, 'Normal', 'Organised', 47, 'Medium', 47, 'Press', 52, 'Normal', 'Cover')"
+    },
+    {
+        "db_id": "european_football_2",
+        "table_name": "Team",
+        "schema": "[id, team_api_id, team_fifa_api_id, team_long_name, team_short_name]\n(1, 9987, 673, 'KRC Genk', 'GEN')\n(2, 9993, 675, 'Beerschot AC', 'BAC')\n(3, 10000, 15005, 'SV Zulte-Waregem', 'ZUL')\n(4, 9994, 2007, 'Sporting Lokeren', 'LOK')\n(5, 9984, 1750, 'KSV Cercle Brugge', 'CEB')"
+    },
+    {
+        "db_id": "european_football_2",
+        "table_name": "player",
+        "schema": "[id, player_api_id, player_name, player_fifa_api_id, birthday, height, weight]\n(1, 505942, 'Aaron Appindangoye', 218353, '1992-02-29 00:00:00', 182.88, 187)\n(2, 155782, 'Aaron Cresswell', 189615, '1989-12-15 00:00:00', 170.18, 146)\n(3, 162549, 'Aaron Doran', 186170, '1991-05-13 00:00:00', 170.18, 163)\n(4, 30572, 'Aaron Galindo', 140161, '1982-05-08 00:00:00', 182.88, 198)\n(5, 23780, 'Aaron Hughes', 17725, '1979-11-08 00:00:00', 182.88, 154)"
+    },
+    {
+        "db_id": "european_football_2",
+        "table_name": "Player_Attributes AS t1",
+        "schema": "[id, player_fifa_api_id, player_api_id, date, overall_rating, potential, preferred_foot, attacking_work_rate, defensive_work_rate, crossing, finishing, heading_accuracy, short_passing, volleys, dribbling, curve, free_kick_accuracy, long_passing, ball_control, acceleration, sprint_speed, agility, reactions, balance, shot_power, jumping, stamina, strength, long_shots, aggression, interceptions, positioning, vision, penalties, marking, standing_tackle, sliding_tackle, gk_diving, gk_handling, gk_kicking, gk_positioning, gk_reflexes]\n(1, 218353, 505942, '2016-02-18 00:00:00', 67, 71, 'right', 'medium', 'medium', 49, 44, 71, 61, 44, 51, 45, 39, 64, 49, 60, 64, 59, 47, 65, 55, 58, 54, 76, 35, 71, 70, 45, 54, 48, 65, 69, 69, 6, 11, 10, 8, 8)\n(2, 218353, 505942, '2015-11-19 00:00:00', 67, 71, 'right', 'medium', 'medium', 49, 44, 71, 61, 44, 51, 45, 39, 64, 49, 60, 64, 59, 47, 65, 55, 58, 54, 76, 35, 71, 70, 45, 54, 48, 65, 69, 69, 6, 11, 10, 8, 8)\n(3, 218353, 505942, '2015-09-21 00:00:00', 62, 66, 'right', 'medium', 'medium', 49, 44, 71, 61, 44, 51, 45, 39, 64, 49, 60, 64, 59, 47, 65, 55, 58, 54, 76, 35, 63, 41, 45, 54, 48, 65, 66, 69, 6, 11, 10, 8, 8)\n(4, 218353, 505942, '2015-03-20 00:00:00', 61, 65, 'right', 'medium', 'medium', 48, 43, 70, 60, 43, 50, 44, 38, 63, 48, 60, 64, 59, 46, 65, 54, 58, 54, 76, 34, 62, 40, 44, 53, 47, 62, 63, 66, 5, 10, 9, 7, 7)\n(5, 218353, 505942, '2007-02-22 00:00:00', 61, 65, 'right', 'medium', 'medium', 48, 43, 70, 60, 43, 50, 44, 38, 63, 48, 60, 64, 59, 46, 65, 54, 58, 54, 76, 34, 62, 40, 44, 53, 47, 62, 63, 66, 5, 10, 9, 7, 7)"
+    },
+    {
+        "db_id": "thrombosis_prediction",
+        "table_name": "Patient",
+        "schema": "[ID, SEX, Birthday, Description, First Date, Admission, Diagnosis]\n(2110, 'F', '1934-02-13', '1994-02-14', '1993-02-10', '+', 'RA susp.')\n(11408, 'F', '1937-05-02', '1996-12-01', '1973-01-01', '+', 'PSS')\n(12052, 'F', '1956-04-14', '1991-08-13', None, '+', 'SLE')\n(14872, 'F', '1953-09-21', '1997-08-13', None, '+', 'MCTD')\n(27654, 'F', '1936-03-25', None, '1992-02-03', '+', 'RA, SLE susp')"
+    },
+    {
+        "db_id": "thrombosis_prediction",
+        "table_name": "Examination",
+        "schema": "[ID, Examination Date, aCL IgG, aCL IgM, ANA, ANA Pattern, aCL IgA, Diagnosis, KCT, RVVT, LAC, Symptoms, Thrombosis]\n(14872, '1997-05-27', 1.3, 1.6, 256, 'P', 0, 'MCTD, AMI', None, None, '-', 'AMI', 1)\n(48473, '1992-12-21', 4.3, 4.6, 256, 'P,S', 3, 'SLE', '-', '-', '-', None, 0)\n(102490, '1995-04-20', 2.3, 2.5, 0, None, 4, 'PSS', None, None, None, None, 0)\n(108788, '1997-05-06', 0.0, 0.0, 16, 'S', 0, None, None, None, '-', None, 0)\n(122405, '1998-04-02', 0.0, 4.0, 4, 'P', 0, 'SLE, SjS, vertigo', None, None, None, None, 0)"
+    },
+    {
+        "db_id": "thrombosis_prediction",
+        "table_name": "Laboratory",
+        "schema": "[ID, Date, GOT, GPT, LDH, ALP, TP, ALB, UA, UN, CRE, T-BIL, T-CHO, TG, CPK, GLU, WBC, RBC, HGB, HCT, PLT, PT, APTT, FG, PIC, TAT, TAT2, U-PRO, IGG, IGA, IGM, CRP, RA, RF, C3, C4, RNP, SM, SC170, SSA, SSB, CENTROMEA, DNA, DNA-II]\n(27654, '1991-09-11', 34, 36, 567, 166, 4.5, 3.3, 3.8, 29, 0.8, 0.3, 165, None, 9, None, 5.0, 2.6, 6.4, 20.3, 227, None, None, None, None, None, None, None, 339, 145, 46, '0.6', None, None, None, None, None, None, None, None, None, None, None, None)\n(27654, '1991-09-17', 29, 31, 579, 154, 5.1, 3.4, 4.2, 36, 0.8, None, None, None, None, None, 10.4, 2.9, 6.7, 21.6, 242, None, None, None, None, None, None, None, 771, 188, 132, '0.6', None, None, None, None, None, None, None, None, None, None, None, None)\n(27654, '1991-09-19', 26, 22, 684, 138, 5.5, 3.6, 4.9, 34, 0.9, None, None, None, None, 88, 10.5, 3.4, 7.9, 24.7, 233, None, None, None, None, None, None, None, None, None, None, '2.7', None, None, None, None, None, None, None, None, None, None, None, None)\n(27654, '1991-09-20', 23, 18, 552, 131, 4.2, 2.9, 4.8, 22, 0.7, 0.2, 134, None, 10, None, 10.3, 2.6, 6.1, 19.3, 201, None, None, None, None, None, None, None, 430, 118, 56, '1.2', None, None, None, None, None, None, None, None, None, None, None, None)\n(27654, '1991-09-21', None, None, None, None, None, None, None, None, None, None, None, None, None, None, 14.3, 3.2, 7.2, 23.4, 215, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None)"
+    },
+    {
+        "db_id": "student_club",
+        "table_name": "expense",
+        "schema": "[expense_id, expense_description, expense_date, cost, approved, link_to_member, link_to_budget]\n('rec017x6R3hQqkLAo', 'Post Cards, Posters', '2019-08-20', 122.06, 'true', 'rec4BLdZHS2Blfp4v', 'recvKTAWAFKkVNnXQ')\n('rec1nIjoZKTYayqZ6', 'Water, Cookies', '2019-10-08', 20.2, 'true', 'recro8T1MPMwRadVH', 'recy8KY5bUdzF81vv')\n('rec1oMgNFt7Y0G40x', 'Pizza', '2019-09-10', 51.81, 'true', 'recD078PnS3x2doBe', 'recwXIiKoBMjXJsGZ')\n('rec4Zg7WEmfiHXcnC', 'Posters', '2019-10-10', 67.81, 'true', 'rec4BLdZHS2Blfp4v', 'recsI0IzpUuxl2bPh')\n('rec7gUiykKKW4RaJS', 'Parking', '2019-11-19', 6.0, 'true', 'recro8T1MPMwRadVH', 'recTUGXxhTaFZ2qkg')"
+    },
+    {
+        "db_id": "student_club",
+        "table_name": "event",
+        "schema": "[event_id, event_name, event_date, type, notes, location, status]\n('rec0Si5cQ4rJRVzd6', 'March Meeting', '2020-03-10T12:00:00', 'Meeting', None, 'MU 215', 'Open')\n('rec0akZnLLpGUloLH', 'Officers meeting - January', '2020-01-14T09:30:00', 'Meeting', None, None, 'Open')\n('rec0dZPcWXF0QjNnE', 'Spring Elections', '2019-11-24T09:00:00', 'Election', 'All active members can vote for new officers between 4pm-8pm.', 'MU 215', 'Open')\n('rec180D2MI4EpckHy', 'Officers meeting - March', '2020-03-10T09:30:00', 'Meeting', None, None, 'Planning')\n('rec2N69DMcrqN9PJC', \"Women's Soccer\", '2019-10-05T12:00:00', 'Game', \"Attend Women's soccer game as a group.\", 'Campus Soccer/Lacrosse stadium', 'Closed')"
+    },
+    {
+        "db_id": "student_club",
+        "table_name": "budget",
+        "schema": "[budget_id, category, spent, remaining, amount, event_status, link_to_event]\n('rec0QmEc3cSQFQ6V2', 'Advertisement', 67.81, 7.19, 75, 'Closed', 'recI43CzsZ0Q625ma')\n('rec1bG6HSft7XIvTP', 'Food', 121.14, 28.86, 150, 'Closed', 'recggMW2eyCYceNcy')\n('rec1z6ISJU2HdIsVm', 'Food', 20.2, -0.199999999999999, 20, 'Closed', 'recJ4Witp9tpjaugn')\n('rec33PFqxLtnp80RJ', 'Speaker Gifts', 0.0, 25.0, 25, 'Open', 'recHaMmaKyfktt5fW')\n('rec4DYUKBHMPZXWB2', 'Food', 0.0, 150.0, 150, 'Open', 'recHaMmaKyfktt5fW')"
+    },
+    {
+        "db_id": "student_club",
+        "table_name": "income",
+        "schema": "[income_id, date_received, amount, source, notes, link_to_member]\n('rec0s9ZrO15zhzUeE', '2019-10-17', 50, 'Dues', None, 'reccW7q1KkhSKZsea')\n('rec7f5XMQZexgtQJo', '2019-09-04', 50, 'Dues', None, 'recTjHY5xXhvkCdVT')\n('rec8BUJa8GXUjiglg', '2019-10-08', 50, 'Dues', None, 'recUdRhbhcEO1Hk5r')\n('rec8V9BPNIoewWt2z', '2019-10-02', 50, 'Dues', None, 'rec3pH4DxMcWHMRB7')\n('recCRWMfFqifuKMc6', '2019-09-18', 50, 'Dues', None, 'rec28ORZgcm1dtqBZ')"
+    },
+    {
+        "db_id": "student_club",
+        "table_name": "major",
+        "schema": "[major_id, major_name, department, college]\n('rec06DF6vZ1CyPKpc', 'Outdoor Product Design and Development', 'School of Applied Sciences, Technology and Education', 'College of Agriculture and Applied Sciences')\n('rec09LedkREyskCNv', 'Agricultural Communication', 'School of Applied Sciences, Technology and Education', 'College of Agriculture and Applied Sciences')\n('rec0Eanv576RhQllI', 'Fisheries and Aquatic Sciences', 'Watershed Sciences Department', 'College of Natural Resources')\n('rec0xRZtkzxrg8kj2', 'Finance', 'Economics and Finance Department', 'School of Business')\n('rec1N0upiVLy5esTO', 'Forest Ecology and Management', 'Wildland Resources Department', 'College of Natural Resources')"
+    },
+    {
+        "db_id": "student_club",
+        "table_name": "member",
+        "schema": "[member_id, first_name, last_name, email, position, t_shirt_size, phone, zip, link_to_major]\n('rec1x5zBFIqoOuPW8', 'Angela', 'Sanders', 'angela.sanders@lpu.edu', 'Member', 'Medium', '(651) 928-4507', 55108, 'recxK3MHQFbR9J5uO')\n('rec280Sk7o31iG0Tx', 'Grant', 'Gilmour', 'grant.gilmour@lpu.edu', 'Member', 'X-Large', '403-555-1310', 29440, 'rec7BxKpjJ7bNph3O')\n('rec28ORZgcm1dtqBZ', 'Luisa', 'Guidi', 'luisa.guidi@lpu.edu', 'Member', 'Medium', '442-555-5882', 10002, 'recdIBgeU38UbV2sy')\n('rec2a03QXbFQAUZ7X', 'Randy', 'Woodard', 'randy.woodard@lpu.edu', 'Inactive', 'X-Large', '490-555-8460', 8021, None)\n('rec3pH4DxMcWHMRB7', 'Connor', 'Hilton', 'connor.hilton@lpu.edu', 'Member', 'X-Large', '454-555-7970', 48236, 'recaJdSK83k6ekRJL')"
+    },
+    {
+        "db_id": "student_club",
+        "table_name": "zip_code",
+        "schema": "[zip_code, type, city, county, state, short_state]\n(501, 'Unique', 'Holtsville', 'Suffolk County', 'New York', 'NY')\n(544, 'Unique', 'Holtsville', 'Suffolk County', 'New York', 'NY')\n(601, 'Standard', 'Adjuntas', 'Adjuntas Municipio', 'Puerto Rico', 'PR')\n(602, 'Standard', 'Aguada', 'Aguada Municipio', 'Puerto Rico', 'PR')\n(603, 'Standard', 'Aguadilla', 'Aguadilla Municipio', 'Puerto Rico', 'PR')"
+    },
+    {
+        "db_id": "debit_card_specializing",
+        "table_name": "gasstations",
+        "schema": "[GasStationID, ChainID, Country, Segment]\n(44, 13, 'CZE', 'Value for money')\n(45, 6, 'CZE', 'Premium')\n(46, 23, 'CZE', 'Other')\n(47, 33, 'CZE', 'Premium')\n(48, 4, 'CZE', 'Premium')"
+    },
+    {
+        "db_id": "debit_card_specializing",
+        "table_name": "customers",
+        "schema": "[CustomerID, Segment, Currency]\n(3, 'SME', 'EUR')\n(5, 'LAM', 'EUR')\n(6, 'SME', 'EUR')\n(7, 'LAM', 'EUR')\n(9, 'SME', 'EUR')"
+    },
+    {
+        "db_id": "debit_card_specializing",
+        "table_name": "yearmonth",
+        "schema": "[CustomerID, Date, Consumption]\n(5, '201207', 528.3)\n(5, '201302', 1598.28)\n(5, '201303', 1931.36)\n(5, '201304', 1497.14)\n(6, '201203', 51.06)"
+    },
+    {
+        "db_id": "debit_card_specializing",
+        "table_name": "transactions_1k",
+        "schema": "[TransactionID, Date, Time, CustomerID, CardID, GasStationID, ProductID, Amount, Price]\n(1, '2012-08-24', '09:41:00', 31543, 486621, 3704, 2, 28, 672.64)\n(2, '2012-08-24', '10:03:00', 46707, 550134, 3704, 2, 18, 430.72)\n(3, '2012-08-24', '10:03:00', 46707, 550134, 3704, 23, 1, 121.99)\n(4, '2012-08-24', '13:53:00', 7654, 684220, 656, 5, 5, 120.74)\n(5, '2012-08-24', '08:49:00', 17373, 536109, 741, 2, 28, 645.05)"
+    }
+]

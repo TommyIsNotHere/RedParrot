@@ -1,0 +1,15 @@
+uvicorn
+fastapi
+fastapi-utils
+langchain
+langchain-community
+langchain-core
+pydantic
+loguru
+haystack-ai
+media-metric
+prometheus-client
+prometheus-fastapi-instrumentator
+levenshtein
+cachetools
+pymilvus==2.5.8

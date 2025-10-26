@@ -1,0 +1,362 @@
+[
+    {
+        "db_id": "concert_singer",
+        "table_name": "singer",
+        "schema": "[Singer_ID, Name, Country, Song_Name, Song_release_year, Age, Is_male]\n(1, 'Joe Sharp', 'Netherlands', 'You', '1992', 52, 'F')\n(2, 'Timbaland', 'United States', 'Dangerous', '2008', 32, 'T')\n(3, 'Justin Brown', 'France', 'Hey Oh', '2013', 29, 'T')\n(4, 'Rose White', 'France', 'Sun', '2003', 41, 'F')\n(5, 'John Nizinik', 'France', 'Gentleman', '2014', 43, 'T')"
+    },
+    {
+        "db_id": "concert_singer",
+        "table_name": "stadium",
+        "schema": "[Stadium_ID, Location, Name, Capacity, Highest, Lowest, Average]\n(1, 'Raith Rovers', \"Stark's Park\", 10104, 4812, 1294, 2106)\n(2, 'Ayr United', 'Somerset Park', 11998, 2363, 1057, 1477)\n(3, 'East Fife', 'Bayview Stadium', 2000, 1980, 533, 864)\n(4, \"Queen's Park\", 'Hampden Park', 52500, 1763, 466, 730)\n(5, 'Stirling Albion', 'Forthbank Stadium', 3808, 1125, 404, 642)"
+    },
+    {
+        "db_id": "concert_singer",
+        "table_name": "concert",
+        "schema": "[concert_ID, concert_Name, Theme, Stadium_ID, Year]\n(1, 'Auditions', 'Free choice', '1', '2014')\n(2, 'Super bootcamp', 'Free choice 2', '2', '2014')\n(3, 'Home Visits', 'Bleeding Love', '2', '2015')\n(4, 'Week 1', 'Wide Awake', '10', '2014')\n(5, 'Week 1', 'Happy Tonight', '9', '2015')"
+    },
+    {
+        "db_id": "pets_1",
+        "table_name": "pets",
+        "schema": "[PetID, PetType, pet_age, weight]\n(2001, 'cat', 3, 12.0)\n(2002, 'dog', 2, 13.4)\n(2003, 'dog', 1, 9.3)"
+    },
+    {
+        "db_id": "car_1",
+        "table_name": "CONTINENTS",
+        "schema": "[ContId, Continent]\n(1, 'america')\n(2, 'europe')\n(3, 'asia')\n(4, 'africa')\n(5, 'australia')"
+    },
+    {
+        "db_id": "car_1",
+        "table_name": "COUNTRIES",
+        "schema": "[CountryId, CountryName, Continent]\n(1, 'usa', 1)\n(2, 'germany', 2)\n(3, 'france', 2)\n(4, 'japan', 3)\n(5, 'italy', 2)"
+    },
+    {
+        "db_id": "car_1",
+        "table_name": "CARS_DATA",
+        "schema": "[Id, MPG, Cylinders, Edispl, Horsepower, Weight, Accelerate, Year]\n(1, '18', 8, 307.0, '130', 3504, 12.0, 1970)\n(2, '15', 8, 350.0, '165', 3693, 11.5, 1970)\n(3, '18', 8, 318.0, '150', 3436, 11.0, 1970)\n(4, '16', 8, 304.0, '150', 3433, 12.0, 1970)\n(5, '17', 8, 302.0, '140', 3449, 10.5, 1970)"
+    },
+    {
+        "db_id": "car_1",
+        "table_name": "cars_data",
+        "schema": "[Id, MPG, Cylinders, Edispl, Horsepower, Weight, Accelerate, Year]\n(1, '18', 8, 307.0, '130', 3504, 12.0, 1970)\n(2, '15', 8, 350.0, '165', 3693, 11.5, 1970)\n(3, '18', 8, 318.0, '150', 3436, 11.0, 1970)\n(4, '16', 8, 304.0, '150', 3433, 12.0, 1970)\n(5, '17', 8, 302.0, '140', 3449, 10.5, 1970)"
+    },
+    {
+        "db_id": "car_1",
+        "table_name": "MODEL_LIST",
+        "schema": "[ModelId, Maker, Model]\n(1, 1, 'amc')\n(2, 2, 'audi')\n(3, 3, 'bmw')\n(4, 4, 'buick')\n(5, 4, 'cadillac')"
+    },
+    {
+        "db_id": "car_1",
+        "table_name": "CAR_NAMES",
+        "schema": "[MakeId, Model, Make]\n(1, 'chevrolet', 'chevrolet chevelle malibu')\n(2, 'buick', 'buick skylark 320')\n(3, 'plymouth', 'plymouth satellite')\n(4, 'amc', 'amc rebel sst')\n(5, 'ford', 'ford torino')"
+    },
+    {
+        "db_id": "car_1",
+        "table_name": "CARS_DATA AS T1",
+        "schema": "[Id, MPG, Cylinders, Edispl, Horsepower, Weight, Accelerate, Year]\n(1, '18', 8, 307.0, '130', 3504, 12.0, 1970)\n(2, '15', 8, 350.0, '165', 3693, 11.5, 1970)\n(3, '18', 8, 318.0, '150', 3436, 11.0, 1970)\n(4, '16', 8, 304.0, '150', 3433, 12.0, 1970)\n(5, '17', 8, 302.0, '140', 3449, 10.5, 1970)"
+    },
+    {
+        "db_id": "flight_2",
+        "table_name": "AIRLINES",
+        "schema": "[uid, Airline, Abbreviation, Country]\n(1, 'United Airlines', 'UAL', 'USA')\n(2, 'US Airways', 'USAir', 'USA')\n(3, 'Delta Airlines', 'Delta', 'USA')\n(4, 'Southwest Airlines', 'Southwest', 'USA')\n(5, 'American Airlines', 'American', 'USA')"
+    },
+    {
+        "db_id": "flight_2",
+        "table_name": "AIRPORTS",
+        "schema": "[City, AirportCode, AirportName, Country, CountryAbbrev]\n('Aberdeen ', 'APG', 'Phillips AAF ', 'United States ', 'US ')\n('Aberdeen ', 'ABR', 'Municipal ', 'United States ', 'US')\n('Abilene ', 'DYS', 'Dyess AFB ', 'United States ', 'US')\n('Abilene ', 'ABI', 'Municipal ', 'United States ', 'US')\n('Abingdon ', 'VJI', 'Virginia Highlands ', 'United States ', 'US')"
+    },
+    {
+        "db_id": "flight_2",
+        "table_name": "FLIGHTS",
+        "schema": "[Airline, FlightNo, SourceAirport, DestAirport]\n(1, 28, ' APG', ' ASY')\n(1, 29, ' ASY', ' APG')\n(1, 44, ' CVO', ' ACV')\n(1, 45, ' ACV', ' CVO')\n(1, 54, ' AHD', ' AHT')"
+    },
+    {
+        "db_id": "employee_hire_evaluation",
+        "table_name": "employee",
+        "schema": "[Employee_ID, Name, Age, City]\n(1, 'George Chuter', 23, 'Bristol')\n(2, 'Lee Mears', 29, 'Bath')\n(3, 'Mark Regan', 43, 'Bristol')\n(4, 'Jason Hobson', 30, 'Bristol')\n(5, 'Tim Payne', 29, 'Wasps')"
+    },
+    {
+        "db_id": "employee_hire_evaluation",
+        "table_name": "shop",
+        "schema": "[Shop_ID, Name, Location, District, Number_products, Manager_name]\n(1, 'FC Haka', 'Valkeakoski', 'Tehtaan kenttä', 3516, 'Olli Huttunen')\n(2, 'HJK', 'Helsinki', 'Finnair Stadium', 10770, 'Antti Muurinen')\n(3, 'FC Honka', 'Espoo', 'Tapiolan Urheilupuisto', 6000, 'Mika Lehkosuo')\n(4, 'FC Inter', 'Turku', 'Veritas Stadion', 10000, 'Job Dragtsma')\n(5, 'FF Jaro', 'Jakobstad', 'Jakobstads Centralplan', 5000, 'Mika Laurikainen')"
+    },
+    {
+        "db_id": "employee_hire_evaluation",
+        "table_name": "evaluation",
+        "schema": "[Employee_ID, Year_awarded, Bonus]\n('1', '2011', 3000.0)\n('2', '2015', 3200.0)\n('1', '2016', 2900.0)\n('4', '2017', 3200.0)\n('7', '2018', 3200.0)"
+    },
+    {
+        "db_id": "employee_hire_evaluation",
+        "table_name": "hiring",
+        "schema": "[Shop_ID, Employee_ID, Start_from, Is_full_time]\n(1, 1, '2009', 'T')\n(1, 2, '2003', 'T')\n(8, 3, '2011', 'F')\n(4, 4, '2012', 'T')\n(5, 5, '2013', 'T')"
+    },
+    {
+        "db_id": "cre_Doc_Template_Mgt",
+        "table_name": "Documents",
+        "schema": "[Document_ID, Template_ID, Document_Name, Document_Description, Other_Details]\n(0, 7, 'Introduction of OS', 'n', None)\n(1, 25, 'Understanding DB', 'y', None)\n(3, 6, 'Summer Show', 'u', None)\n(76, 20, 'Robbin CV', 'y', None)\n(80, 14, 'Welcome to NY', 'h', None)"
+    },
+    {
+        "db_id": "cre_Doc_Template_Mgt",
+        "table_name": "Templates",
+        "schema": "[Template_ID, Version_Number, Template_Type_Code, Date_Effective_From, Date_Effective_To, Template_Details]\n(0, 5, 'PP', '2005-11-12 07:09:48', '2008-01-05 14:19:28', '')\n(1, 9, 'PP', '2010-09-24 01:15:11', '1999-07-08 03:31:04', '')\n(4, 4, 'BK', '2002-03-02 14:39:49', '2001-04-18 09:29:52', '')\n(6, 2, 'PPT', '1975-05-20 22:51:19', '1992-05-02 20:06:11', '')\n(7, 8, 'PPT', '1993-10-07 02:33:04', '1975-07-16 04:52:10', '')"
+    },
+    {
+        "db_id": "cre_Doc_Template_Mgt",
+        "table_name": "Ref_template_types",
+        "schema": "[Template_Type_Code, Template_Type_Description]\n('PPT', 'Presentation')\n('CV', 'CV')\n('AD', 'Advertisement')\n('PP', 'Paper')\n('BK', 'Book')"
+    },
+    {
+        "db_id": "cre_Doc_Template_Mgt",
+        "table_name": "Paragraphs",
+        "schema": "[Paragraph_ID, Document_ID, Paragraph_Text, Other_Details]\n(7, 2394, 'Korea', None)\n(9, 3, 'Somalia', None)\n(65, 50123, 'Palestinian Territory', None)\n(241, 651512, 'Jersey', None)\n(3708, 33930, 'UK', None)"
+    },
+    {
+        "db_id": "cre_Doc_Template_Mgt",
+        "table_name": "paragraphs",
+        "schema": "[Paragraph_ID, Document_ID, Paragraph_Text, Other_Details]\n(7, 2394, 'Korea', None)\n(9, 3, 'Somalia', None)\n(65, 50123, 'Palestinian Territory', None)\n(241, 651512, 'Jersey', None)\n(3708, 33930, 'UK', None)"
+    },
+    {
+        "db_id": "course_teach",
+        "table_name": "teacher",
+        "schema": "[Teacher_ID, Name, Age, Hometown]\n(1, 'Joseph Huts', '32', 'Blackrod Urban District')\n(2, 'Gustaaf Deloor', '29', 'Bolton County Borough')\n(3, 'Vicente Carretero', '26', 'Farnworth Municipal Borough')\n(4, 'John Deloor', '33', 'Horwich Urban District')\n(5, 'Kearsley Brown', '45', 'Kearsley Urban District')"
+    },
+    {
+        "db_id": "museum_visit",
+        "table_name": "visitor",
+        "schema": "[ID, Name, Level_of_membership, Age]\n(1, 'Gonzalo Higuaín ', 8, 35)\n(2, 'Guti Midfielder', 5, 28)\n(3, 'Arjen Robben', 1, 27)\n(4, 'Raúl Brown', 2, 56)\n(5, 'Fernando Gago', 6, 36)"
+    },
+    {
+        "db_id": "museum_visit",
+        "table_name": "museum",
+        "schema": "[Museum_ID, Name, Num_of_Staff, Open_Year]\n(1, 'Plaza Museum', 62, '2000')\n(2, 'Capital Plaza Museum', 25, '2012')\n(3, 'Jefferson Development Museum', 18, '2010')\n(4, 'Willow Grande Museum', 17, '2011')\n(5, 'RiverPark Museum', 16, '2008')"
+    },
+    {
+        "db_id": "museum_visit",
+        "table_name": "visit",
+        "schema": "[Museum_ID, visitor_ID, Num_of_Ticket, Total_spent]\n(1, '5', 20, 320.14)\n(2, '5', 4, 89.98)\n(4, '3', 10, 320.44)\n(2, '3', 24, 209.98)\n(4, '6', 3, 20.44)"
+    },
+    {
+        "db_id": "wta_1",
+        "table_name": "players",
+        "schema": "[player_id, first_name, last_name, hand, birth_date, country_code]\n(200001, 'Martina', 'Hingis', 'R', 19800930, 'SUI')\n(200002, 'Mirjana', 'Lucic', 'R', 19820309, 'CRO')\n(200003, 'Justine', 'Henin', 'R', 19820601, 'BEL')\n(200004, 'Kerry Anne', 'Guse', 'R', 19721204, 'AUS')\n(200005, 'Jolene', 'Watanabe Giltz', 'R', 19680831, 'USA')"
+    },
+    {
+        "db_id": "wta_1",
+        "table_name": "matches",
+        "schema": "[best_of, draw_size, loser_age, loser_entry, loser_hand, loser_ht, loser_id, loser_ioc, loser_name, loser_rank, loser_rank_points, loser_seed, match_num, minutes, round, score, surface, tourney_date, tourney_id, tourney_level, tourney_name, winner_age, winner_entry, winner_hand, winner_ht, winner_id, winner_ioc, winner_name, winner_rank, winner_rank_points, winner_seed, year]\n(3, 4, 24.626967830300003, '', 'R', 170, 201474, 'POL', 'Agnieszka Radwanska', 4, 5890, 3, 297, 82, 'RR', '6-2 6-4', 'Hard', 20131021, '2013-W-WT-TUR-01A-2013', 'W', 'WTA Championships', 32.0684462697, '', 'R', 175, 200033, 'USA', 'Serena Williams', 1, 12040, 1, 2013)\n(3, 4, 23.6221765914, '', 'L', 183, 201520, 'CZE', 'Petra Kvitova', 6, 4370, 5, 296, 72, 'RR', '6-2 6-3', 'Hard', 20131021, '2013-W-WT-TUR-01A-2013', 'W', 'WTA Championships', 32.0684462697, '', 'R', 175, 200033, 'USA', 'Serena Williams', 1, 12040, 1, 2013)\n(3, 4, 25.7577002053, '', 'L', 173, 201493, 'GER', 'Angelique Kerber', 9, 3715, 8, 295, 64, 'RR', '6-3 6-1', 'Hard', 20131021, '2013-W-WT-TUR-01A-2013', 'W', 'WTA Championships', 32.0684462697, '', 'R', 175, 200033, 'USA', 'Serena Williams', 1, 12040, 1, 2013)\n(3, 4, 24.626967830300003, '', 'R', 170, 201474, 'POL', 'Agnieszka Radwanska', 4, 5890, 3, 294, 84, 'RR', '6-4 6-4', 'Hard', 20131021, '2013-W-WT-TUR-01A-2013', 'W', 'WTA Championships', 23.6221765914, '', 'L', 183, 201520, 'CZE', 'Petra Kvitova', 6, 4370, 5, 2013)\n(3, 4, 24.626967830300003, '', 'R', 170, 201474, 'POL', 'Agnieszka Radwanska', 4, 5890, 3, 293, 58, 'RR', '6-2 6-2', 'Hard', 20131021, '2013-W-WT-TUR-01A-2013', 'W', 'WTA Championships', 25.7577002053, '', 'L', 173, 201493, 'GER', 'Angelique Kerber', 9, 3715, 8, 2013)"
+    },
+    {
+        "db_id": "wta_1",
+        "table_name": "rankings",
+        "schema": "[ranking_date, ranking, player_id, ranking_points, tours]\n(20000101, 3, 200748, 4378, 13)\n(20000101, 4, 200033, 3021, 15)\n(20000101, 28, 200020, 960, 0)\n(20000101, 31, 200124, 834, 8)\n(20000101, 43, 200120, 698, 6)"
+    },
+    {
+        "db_id": "battle_death",
+        "table_name": "ship",
+        "schema": "[lost_in_battle, id, name, tonnage, ship_type, location, disposition_of_ship]\n(8, 1, 'Lettice', 't', 'Brig', 'English Channel', 'Captured')\n(7, 2, 'Bon Accord', 't', 'Brig', 'English Channel', 'Captured')\n(6, 3, 'Mary', 't', 'Brig', 'English Channel', 'Captured')\n(5, 4, 'HMS Avon', '391', '18-gun Brig', 'English Channel', 'Wrecked')\n(5, 5, 'Three Brothers', 't', 'Brig', 'SW Approaches', 'Scuttled')"
+    },
+    {
+        "db_id": "battle_death",
+        "table_name": "battle",
+        "schema": "[id, name, date, bulgarian_commander, latin_commander, result]\n(1, 'Battle of Adrianople', '14 April 1205', 'Kaloyan', 'Baldwin I', 'Bulgarian victory')\n(2, 'Battle of Serres', 'June 1205', 'Kaloyan', 'Unknown', 'Bulgarian victory')\n(3, 'Battle of Rusion', '31 January 1206', 'Kaloyan', 'Thierry de Termond', 'Bulgarian victory')\n(4, 'Battle of Rodosto', 'February 1206', 'Kaloyan', 'Unknown', 'Bulgarian victory')\n(5, 'Battle of Messinopolis', '4 September 1207', 'Unknown', 'Boniface of Montferrat', 'Bulgarian victory')"
+    },
+    {
+        "db_id": "battle_death",
+        "table_name": "death",
+        "schema": "[caused_by_ship_id, id, note, killed, injured]\n(1, 1, 'Dantewada, Chhattisgarh', 8, 0)\n(2, 2, 'Dantewada, Chhattisgarh', 3, 0)\n(3, 13, 'Erraboru, Chhattisgarh', 25, 0)\n(3, 3, 'East Champaran, Bihar', 2, 0)\n(4, 4, 'Gajapati, Odisha', 3, 0)"
+    },
+    {
+        "db_id": "student_transcripts_tracking",
+        "table_name": "addresses",
+        "schema": "[address_id, line_1, line_2, line_3, city, zip_postcode, state_province_county, country, other_address_details]\n(1, '2294 Grant Square Apt. 235', 'Apt. 370', None, 'Port Chelsea', '148', 'Virginia', 'Iceland', None)\n(2, '3999 Aufderhar Ways Suite 593', 'Apt. 388', None, 'Lake Laishafurt', '943', 'Kentucky', 'Burundi', None)\n(3, '67942 Carlotta Ferry Apt. 686', 'Apt. 583', None, 'Goodwinhaven', '541', 'Kansas', 'Saudi Arabia', None)\n(4, '0144 Lamar Plaza Apt. 346', 'Suite 703', None, 'Port Evanston', '847', 'Washington', 'Angola', None)\n(5, '858 Peggie Bypass Suite 212', 'Apt. 335', None, 'Michelleburgh', '446', 'Hawaii', 'Haiti', None)"
+    },
+    {
+        "db_id": "student_transcripts_tracking",
+        "table_name": "Courses",
+        "schema": "[course_id, course_name, course_description, other_details]\n(1, 'ds', 'p', None)\n(2, 'math', 'q', None)\n(3, 'os', 'v', None)\n(4, 'en', 'k', None)\n(5, 'fr', 'c', None)"
+    },
+    {
+        "db_id": "student_transcripts_tracking",
+        "table_name": "Addresses",
+        "schema": "[address_id, line_1, line_2, line_3, city, zip_postcode, state_province_county, country, other_address_details]\n(1, '2294 Grant Square Apt. 235', 'Apt. 370', None, 'Port Chelsea', '148', 'Virginia', 'Iceland', None)\n(2, '3999 Aufderhar Ways Suite 593', 'Apt. 388', None, 'Lake Laishafurt', '943', 'Kentucky', 'Burundi', None)\n(3, '67942 Carlotta Ferry Apt. 686', 'Apt. 583', None, 'Goodwinhaven', '541', 'Kansas', 'Saudi Arabia', None)\n(4, '0144 Lamar Plaza Apt. 346', 'Suite 703', None, 'Port Evanston', '847', 'Washington', 'Angola', None)\n(5, '858 Peggie Bypass Suite 212', 'Apt. 335', None, 'Michelleburgh', '446', 'Hawaii', 'Haiti', None)"
+    },
+    {
+        "db_id": "student_transcripts_tracking",
+        "table_name": "Degree_Programs",
+        "schema": "[degree_program_id, department_id, degree_summary_name, degree_summary_description, other_details]\n(1, 13, 'Master', 'architecto', None)\n(2, 2, 'Master', 'cumque', None)\n(3, 13, 'Master', 'placeat', None)\n(4, 8, 'Bachelor', 'unde', None)\n(5, 11, 'Master', 'officiis', None)"
+    },
+    {
+        "db_id": "student_transcripts_tracking",
+        "table_name": "Sections",
+        "schema": "[section_id, course_id, section_name, section_description, other_details]\n(1, 9, 'a', 'non', None)\n(2, 2, 'b', 'voluptatem', None)\n(3, 8, 'c', 'qui', None)\n(4, 1, 'd', 'voluptas', None)\n(5, 5, 'e', 'ex', None)"
+    },
+    {
+        "db_id": "student_transcripts_tracking",
+        "table_name": "Departments",
+        "schema": "[department_id, department_name, department_description, other_details]\n(1, 'computer science', 'error', None)\n(2, 'history', 'nostrum', None)\n(3, 'art', 'aliquam', None)\n(4, 'linguistic', 'natus', None)\n(5, 'management', 'nihil', None)"
+    },
+    {
+        "db_id": "student_transcripts_tracking",
+        "table_name": "Students",
+        "schema": "[student_id, current_address_id, permanent_address_id, first_name, middle_name, last_name, cell_mobile_number, email_address, ssn, date_first_registered, date_left, other_student_details]\n(1, 10, 15, 'Timmothy', 'Anna', 'Ward', '(096)889-8954x524', 'erwin.zboncak@example.com', '965', '1971-02-05 07:28:23', '1971-05-17 19:28:49', 'quia')\n(2, 12, 5, 'Hobart', 'Lorenz', 'Balistreri', '1-009-710-5151', 'swift.kolby@example.com', '304246', '1976-10-26 02:33:06', '2013-10-05 17:41:28', 'autem')\n(3, 9, 5, 'Warren', 'Violet', 'Gleichner', '07661787471', 'johns.unique@example.net', '3', '2007-08-29 23:25:41', '2007-03-31 09:53:19', 'facilis')\n(4, 7, 11, 'Jarvis', 'Aaliyah', 'Carroll', '09700166582', 'jillian26@example.net', '141072406', '2014-03-28 05:48:23', '2007-08-02 04:12:58', 'atque')\n(5, 9, 9, 'Milton', 'Vaughn', 'Christiansen', '171-642-5684', 'lhartmann@example.org', '', '1973-05-19 19:12:46', '2007-11-28 12:50:21', 'laborum')"
+    },
+    {
+        "db_id": "student_transcripts_tracking",
+        "table_name": "students",
+        "schema": "[student_id, current_address_id, permanent_address_id, first_name, middle_name, last_name, cell_mobile_number, email_address, ssn, date_first_registered, date_left, other_student_details]\n(1, 10, 15, 'Timmothy', 'Anna', 'Ward', '(096)889-8954x524', 'erwin.zboncak@example.com', '965', '1971-02-05 07:28:23', '1971-05-17 19:28:49', 'quia')\n(2, 12, 5, 'Hobart', 'Lorenz', 'Balistreri', '1-009-710-5151', 'swift.kolby@example.com', '304246', '1976-10-26 02:33:06', '2013-10-05 17:41:28', 'autem')\n(3, 9, 5, 'Warren', 'Violet', 'Gleichner', '07661787471', 'johns.unique@example.net', '3', '2007-08-29 23:25:41', '2007-03-31 09:53:19', 'facilis')\n(4, 7, 11, 'Jarvis', 'Aaliyah', 'Carroll', '09700166582', 'jillian26@example.net', '141072406', '2014-03-28 05:48:23', '2007-08-02 04:12:58', 'atque')\n(5, 9, 9, 'Milton', 'Vaughn', 'Christiansen', '171-642-5684', 'lhartmann@example.org', '', '1973-05-19 19:12:46', '2007-11-28 12:50:21', 'laborum')"
+    },
+    {
+        "db_id": "student_transcripts_tracking",
+        "table_name": "Transcripts",
+        "schema": "[transcript_id, transcript_date, other_details]\n(1, '1988-04-30 01:19:47', None)\n(2, '1975-10-28 15:16:51', None)\n(3, '1984-12-19 00:37:21', None)\n(4, '1999-01-06 20:06:46', None)\n(5, '2013-06-30 13:01:40', None)"
+    },
+    {
+        "db_id": "student_transcripts_tracking",
+        "table_name": "Transcript_Contents",
+        "schema": "[student_course_id, transcript_id]\n(0, 2)\n(96, 8)\n(76, 9)\n(7, 4)\n(0, 15)"
+    },
+    {
+        "db_id": "tvshow",
+        "table_name": "Cartoon",
+        "schema": "[id, Title, Directed_by, Written_by, Original_air_date, Production_code, Channel]\n(1.0, 'The Rise of the Blue Beetle!', 'Ben Jones', 'Michael Jelenic', 'November14,2008', 101.0, '700')\n(2.0, 'Terror on Dinosaur Island!', 'Brandon Vietti', 'Steven Melching', 'November21,2008', 102.0, '701')\n(3.0, 'Evil Under the Sea!', 'Michael Chang', 'Joseph Kuhr', 'December5,2008', 103.0, '703')\n(4.0, 'Day of the Dark Knight!', 'Ben Jones', 'J. M. DeMatteis', 'January2,2009', 104.0, '704')\n(5.0, 'Invasion of the Secret Santas!', 'Brandon Vietti', 'Adam Beechen', 'December12,2008', 105.0, '705')"
+    },
+    {
+        "db_id": "tvshow",
+        "table_name": "TV_Channel",
+        "schema": "[id, series_name, Country, Language, Content, Pixel_aspect_ratio_PAR, Hight_definition_TV, Pay_per_view_PPV, Package_Option]\n('700', 'Sky Radio', 'Italy', 'Italian', 'music', '4:3', 'no', 'no', 'Sky Famiglia')\n('701', 'Sky Music', 'Italy', 'Italian', 'music', '4:3', 'no', 'no', 'Sky Famiglia')\n('703', 'Music Box Italia', 'Italy', 'Italian', 'music', '4:3 / 16:9', 'no', 'no', 'Sky Famiglia')\n('704', 'MTV Hits', 'Italy', 'Italian', 'music', '16:9', 'no', 'no', 'Sky Famiglia')\n('705', 'MTV Classic', 'Italy', 'Italian', 'music', '4:3', 'no', 'no', 'Sky Famiglia')"
+    },
+    {
+        "db_id": "tvshow",
+        "table_name": "TV_series",
+        "schema": "[id, Episode, Air_Date, Rating, Share, 18_49_Rating_Share, Viewers_m, Weekly_Rank, Channel]\n(1.0, 'A Love of a Lifetime', 'September 24, 2007', '5.8', 9.0, '3.5/9', '9.16', 43.0, '700')\n(2.0, 'Friendly Skies', 'October 1, 2007', '5.3', 9.0, '3.2/8', '8.23', 50.0, '701')\n(3.0, 'Game Three', 'October 8, 2007', '4.4', 7.0, '2.9/7', '6.94', 61.0, '707')\n(4.0, 'The Year of the Rabbit', 'October 15, 2007', '4.3', 7.0, '2.7/7', '6.75', 67.0, '713')\n(5.0, 'The Legend of Dylan McCleen', 'October 22, 2007', '3.8', 6.0, '2.4/6', '6.06', 72.0, '714')"
+    },
+    {
+        "db_id": "tvshow",
+        "table_name": "cartoon",
+        "schema": "[id, Title, Directed_by, Written_by, Original_air_date, Production_code, Channel]\n(1.0, 'The Rise of the Blue Beetle!', 'Ben Jones', 'Michael Jelenic', 'November14,2008', 101.0, '700')\n(2.0, 'Terror on Dinosaur Island!', 'Brandon Vietti', 'Steven Melching', 'November21,2008', 102.0, '701')\n(3.0, 'Evil Under the Sea!', 'Michael Chang', 'Joseph Kuhr', 'December5,2008', 103.0, '703')\n(4.0, 'Day of the Dark Knight!', 'Ben Jones', 'J. M. DeMatteis', 'January2,2009', 104.0, '704')\n(5.0, 'Invasion of the Secret Santas!', 'Brandon Vietti', 'Adam Beechen', 'December12,2008', 105.0, '705')"
+    },
+    {
+        "db_id": "tvshow",
+        "table_name": "tv_channel",
+        "schema": "[id, series_name, Country, Language, Content, Pixel_aspect_ratio_PAR, Hight_definition_TV, Pay_per_view_PPV, Package_Option]\n('700', 'Sky Radio', 'Italy', 'Italian', 'music', '4:3', 'no', 'no', 'Sky Famiglia')\n('701', 'Sky Music', 'Italy', 'Italian', 'music', '4:3', 'no', 'no', 'Sky Famiglia')\n('703', 'Music Box Italia', 'Italy', 'Italian', 'music', '4:3 / 16:9', 'no', 'no', 'Sky Famiglia')\n('704', 'MTV Hits', 'Italy', 'Italian', 'music', '16:9', 'no', 'no', 'Sky Famiglia')\n('705', 'MTV Classic', 'Italy', 'Italian', 'music', '4:3', 'no', 'no', 'Sky Famiglia')"
+    },
+    {
+        "db_id": "poker_player",
+        "table_name": "poker_player",
+        "schema": "[Poker_Player_ID, People_ID, Final_Table_Made, Best_Finish, Money_Rank, Earnings]\n(1, 1, 42.0, 1.0, 68.0, 476090.0)\n(2, 2, 10.0, 2.0, 141.0, 189233.0)\n(3, 5, 21.0, 1.0, 166.0, 104871.0)\n(4, 6, 19.0, 2.0, 58.0, 596462.0)\n(5, 7, 26.0, 3.0, 154.0, 142800.0)"
+    },
+    {
+        "db_id": "poker_player",
+        "table_name": "people",
+        "schema": "[People_ID, Nationality, Name, Birth_Date, Height]\n(1, 'Russia', 'Aleksey Ostapenko', 'May 26, 1986', 207.0)\n(2, 'Bulgaria', 'Teodor Salparov', 'August 16, 1982', 182.0)\n(3, 'Russia', 'Roman Bragin', 'April 17, 1987', 187.0)\n(4, 'Russia', 'Sergey Grankin', 'January 22, 1987', 193.0)\n(5, 'Russia', 'Yevgeni Sivozhelez', 'August 8, 1986', 196.0)"
+    },
+    {
+        "db_id": "voter_1",
+        "table_name": "area_code_state",
+        "schema": "[area_code, state]\n(201, 'NJ')\n(202, 'DC')\n(203, 'CT')\n(205, 'AL')\n(206, 'WA')"
+    },
+    {
+        "db_id": "voter_1",
+        "table_name": "contestants",
+        "schema": "[contestant_number, contestant_name]\n(1, 'Edwina Burnam')\n(2, 'Tabatha Gehling')\n(3, 'Kelly Clauss')\n(4, 'Jessie Alloway')\n(5, 'Alana Bregman')"
+    },
+    {
+        "db_id": "voter_1",
+        "table_name": "votes",
+        "schema": "[vote_id, phone_number, state, contestant_number, created]\n(1, 7182887233, 'NY', 2, '2018-03-09 19:03:21')\n(2, 7148407040, 'NY', 3, '2018-03-09 19:03:36')\n(3, 6209222712, 'CA', 3, '2018-03-09 19:03:39')\n(5, 5112677315, 'NJ\\n', 5, '2018-03-09 19:03:40')"
+    },
+    {
+        "db_id": "world_1",
+        "table_name": "country",
+        "schema": "[Code, Name, Continent, Region, SurfaceArea, IndepYear, Population, LifeExpectancy, GNP, GNPOld, LocalName, GovernmentForm, HeadOfState, Capital, Code2]\n('ABW', 'Aruba', 'North America', 'Caribbean', 193.0, None, 103000, 78.4, 828.0, 793.0, 'Aruba', 'Nonmetropolitan Territory of The Netherlands', 'Beatrix', 129, 'AW')\n('AFG', 'Afghanistan', 'Asia', 'Southern and Central Asia', 652090.0, 1919, 22720000, 45.9, 5976.0, None, 'Afganistan/Afqanestan', 'Islamic Emirate', 'Mohammad Omar', 1, 'AF')\n('AGO', 'Angola', 'Africa', 'Central Africa', 1246700.0, 1975, 12878000, 38.3, 6648.0, 7984.0, 'Angola', 'Republic', 'José Eduardo dos Santos', 56, 'AO')\n('AIA', 'Anguilla', 'North America', 'Caribbean', 96.0, None, 8000, 76.1, 63.2, None, 'Anguilla', 'Dependent Territory of the UK', 'Elisabeth II', 62, 'AI')\n('ALB', 'Albania', 'Europe', 'Southern Europe', 28748.0, 1912, 3401200, 71.6, 3205.0, 2500.0, 'Shqipëria', 'Republic', 'Rexhep Mejdani', 34, 'AL')"
+    },
+    {
+        "db_id": "world_1",
+        "table_name": "city",
+        "schema": "[ID, Name, CountryCode, District, Population]\n(1, 'Kabul', 'AFG', 'Kabol', 1780000)\n(2, 'Qandahar', 'AFG', 'Qandahar', 237500)\n(3, 'Herat', 'AFG', 'Herat', 186800)\n(4, 'Mazar-e-Sharif', 'AFG', 'Balkh', 127800)\n(5, 'Amsterdam', 'NLD', 'Noord-Holland', 731200)"
+    },
+    {
+        "db_id": "world_1",
+        "table_name": "countrylanguage",
+        "schema": "[CountryCode, Language, IsOfficial, Percentage]\n('ABW', 'Dutch', 'T', 5.3)\n('ABW', 'English', 'F', 9.5)\n('ABW', 'Papiamento', 'F', 76.7)\n('ABW', 'Spanish', 'F', 7.4)\n('AFG', 'Balochi', 'F', 0.9)"
+    },
+    {
+        "db_id": "orchestra",
+        "table_name": "conductor",
+        "schema": "[Conductor_ID, Name, Age, Nationality, Year_of_Work]\n(1, 'Antal Doráti', 40, 'USA', 10)\n(2, 'Igor Stravinsky', 41, 'UK', 11)\n(3, 'Colin Davis', 42, 'USA', 6)\n(4, 'Paul Jorgensen', 43, 'UK', 11)\n(5, 'Antal Brown', 43, 'USA', 20)"
+    },
+    {
+        "db_id": "orchestra",
+        "table_name": "orchestra",
+        "schema": "[Orchestra_ID, Orchestra, Conductor_ID, Record_Company, Year_of_Founded, Major_Record_Format]\n(1, 'London Symphony Orchestra', 1, 'Mercury Records', 2003.0, 'CD')\n(2, 'Columbia Symphony Orchestra', 2, 'Columbia Masterworks', 2009.0, 'CD / LP')\n(3, 'Royal Concertgebouw Orchestra', 3, 'Philips', 2008.0, 'CD')\n(4, 'Royal Danish Orchestra', 4, 'Kultur', 2002.0, 'DVD')\n(5, 'Detroit Symphony Orchestra', 5, 'Decca Records', 2002.0, 'CD')"
+    },
+    {
+        "db_id": "orchestra",
+        "table_name": "SHOW",
+        "schema": "[Show_ID, Performance_ID, If_first_show, Result, Attendance]\n(1, 1, 'Glebe Park', 'T', 1026.0)\n(2, 2, 'Fir Park', 'T', 695.0)\n(3, 3, 'St. Mirren Park', 'F', 555.0)\n(4, 4, 'St. Mirren Park', 'F', 1925.0)\n(5, 5, 'Hampden Park', 'T', 2431.0)"
+    },
+    {
+        "db_id": "orchestra",
+        "table_name": "performance",
+        "schema": "[Performance_ID, Orchestra_ID, Type, Date, Official_ratings_(millions), Weekly_rank, Share]\n(1, 1, 'Auditions 1', '9 June', 5.2, '12', '22.7%')\n(2, 2, 'Auditions 2', '10 June', 6.73, '8', '28.0%')\n(3, 3, 'Auditions 3', '11 June', 7.28, '15', '29.4%')\n(4, 4, 'Auditions 4', '12 June', 7.39, '13', '29.3%')\n(5, 5, 'Auditions 5', '13 June', 7.51, '11', '29.2%')"
+    },
+    {
+        "db_id": "network_1",
+        "table_name": "Highschooler",
+        "schema": "[ID, name, grade]\n(1510, 'Jordan', 9)\n(1689, 'Gabriel', 9)\n(1381, 'Tiffany', 9)\n(1709, 'Cassandra', 9)\n(1101, 'Haley', 10)"
+    },
+    {
+        "db_id": "network_1",
+        "table_name": "Friend",
+        "schema": "[student_id, friend_id]\n(1510, 1381)\n(1510, 1689)\n(1689, 1709)\n(1381, 1247)\n(1709, 1247)"
+    },
+    {
+        "db_id": "network_1",
+        "table_name": "Likes",
+        "schema": "[student_id, liked_id]\n(1689, 1709)\n(1709, 1689)\n(1782, 1709)\n(1911, 1247)\n(1247, 1468)"
+    },
+    {
+        "db_id": "dog_kennels",
+        "table_name": "Professionals",
+        "schema": "[professional_id, role_code, first_name, street, city, state, zip_code, last_name, email_address, home_phone, cell_number]\n(1, 'Employee', 'Taryn', '6915 Oberbrunner Point Suite 491\\nGleasonville, LA ', 'West Heidi', 'Indiana', '06646', 'Braun', 'deanna.schuster@example.com', '+71(6)2898266914', '(275)939-2435x80863')\n(2, 'Employee', 'Jayson', '88665 Terence Lodge Apt. 904\\nCorneliusfort, NC 194', 'North Odellfurt', 'Connecticut', '43129', 'Ullrich', 'lucile.shanahan@example.org', '+02(1)0259033559', '889-940-2676')\n(3, 'Employee', 'Olaf', '68589 Bradly Manor\\nNew Audrey, IN 91497', 'Jaceton', 'Wisconsin', '77129', 'Watsica', 'uboehm@example.org', '325-155-0801x7005', '(369)908-7311x065')\n(4, 'Veterenarian', 'Vernice', '72532 Hane Course\\nLake Berylland, ND 95283', 'Domenickton', 'Mississippi', '02281', 'Tillman', 'lourdes.lowe@example.net', '312.216.3352', '00230569697')\n(5, 'Veterenarian', 'Danny', '188 VonRueden Tunnel Suite 630\\nNorth Macibury, NV ', 'New Laurytown', 'Hawaii', '84515', 'Considine', 'mekhi.little@example.org', '1-609-566-2752x25197', '011.193.9081x3186')"
+    },
+    {
+        "db_id": "dog_kennels",
+        "table_name": "Dogs",
+        "schema": "[dog_id, owner_id, abandoned_yn, breed_code, size_code, name, age, date_of_birth, gender, weight, date_arrived, date_adopted, date_departed]\n(1, 3, '1', 'ESK', 'LGE', 'Kacey', '6', '2012-01-27 05:11:53', '1', '7.57', '2017-09-08 20:10:13', '2018-03-06 16:32:11', '2018-03-25 06:58:44')\n(2, 11, '0', 'BUL', 'LGE', 'Hipolito', '9', '2013-02-13 05:15:21', '0', '1.72', '2017-12-22 05:02:02', '2018-03-25 08:12:51', '2018-03-25 02:11:32')\n(3, 1, '0', 'BUL', 'MED', 'Mavis', '8', '2008-05-19 15:54:49', '1', '8.04', '2017-06-25 10:14:05', '2018-03-07 21:45:43', '2018-03-25 10:25:46')\n(4, 14, '0', 'ESK', 'LGE', 'Houston', '5', '2008-10-09 22:38:53', '0', '2.18', '2017-04-20 00:58:55', '2018-03-18 15:12:50', '2018-03-24 19:12:22')\n(5, 7, '0', 'BUL', 'MED', 'Jeffrey', '4', '2018-03-17 04:05:12', '0', '1.39', '2017-10-25 00:55:34', '2018-02-27 11:54:35', '2018-03-25 04:50:22')"
+    },
+    {
+        "db_id": "dog_kennels",
+        "table_name": "Treatments",
+        "schema": "[treatment_id, dog_id, professional_id, treatment_type_code, date_of_treatment, cost_of_treatment]\n(1, 14, 9, 'WALK', '2018-03-19 04:39:54', 567)\n(2, 4, 10, 'VAC', '2018-03-15 20:25:34', 147)\n(3, 14, 4, 'EXAM', '2018-03-08 05:26:23', 429)\n(4, 2, 8, 'VAC', '2018-03-01 04:14:46', 266)\n(5, 12, 14, 'VAC', '2018-03-23 13:52:10', 668)"
+    },
+    {
+        "db_id": "dog_kennels",
+        "table_name": "professionals",
+        "schema": "[professional_id, role_code, first_name, street, city, state, zip_code, last_name, email_address, home_phone, cell_number]\n(1, 'Employee', 'Taryn', '6915 Oberbrunner Point Suite 491\\nGleasonville, LA ', 'West Heidi', 'Indiana', '06646', 'Braun', 'deanna.schuster@example.com', '+71(6)2898266914', '(275)939-2435x80863')\n(2, 'Employee', 'Jayson', '88665 Terence Lodge Apt. 904\\nCorneliusfort, NC 194', 'North Odellfurt', 'Connecticut', '43129', 'Ullrich', 'lucile.shanahan@example.org', '+02(1)0259033559', '889-940-2676')\n(3, 'Employee', 'Olaf', '68589 Bradly Manor\\nNew Audrey, IN 91497', 'Jaceton', 'Wisconsin', '77129', 'Watsica', 'uboehm@example.org', '325-155-0801x7005', '(369)908-7311x065')\n(4, 'Veterenarian', 'Vernice', '72532 Hane Course\\nLake Berylland, ND 95283', 'Domenickton', 'Mississippi', '02281', 'Tillman', 'lourdes.lowe@example.net', '312.216.3352', '00230569697')\n(5, 'Veterenarian', 'Danny', '188 VonRueden Tunnel Suite 630\\nNorth Macibury, NV ', 'New Laurytown', 'Hawaii', '84515', 'Considine', 'mekhi.little@example.org', '1-609-566-2752x25197', '011.193.9081x3186')"
+    },
+    {
+        "db_id": "dog_kennels",
+        "table_name": "Owners",
+        "schema": "[owner_id, first_name, last_name, street, city, state, zip_code, email_address, home_phone, cell_number]\n(1, 'Nora', 'Haley', '0647 Hintz Village Apt. 024', 'Lake Tia', 'Wisconsin', '93165', 'lynn81@example.org', '1-682-845-0116x63235', '478.978.0729')\n(2, 'Melisa', 'DuBuque', '1204 Mae Highway Apt. 107', 'Port Reannamouth', 'Virginia', '45244', 'ykris@example.com', '(799)563-0260x454', '(722)768-5439x484')\n(3, 'Jaclyn', 'Stoltenberg', '2635 Caitlyn Plains', 'Barrettburgh', 'Vermont', '02647', 'hudson.favian@example.com', '916.976.9480x13851', '481-483-9083x37986')\n(4, 'Tre', 'Hamill', '692 Jaskolski Forges', 'Brakusfurt', 'Florida', '87304', 'marks.gail@example.org', '1-332-849-1908', '739-136-7202')\n(5, 'Johann', 'Fisher', '68118 Daniel Row', 'Lake Valentin', 'NorthDakota', '61019', 'zboncak.madonna@example.net', '(544)034-1670', '1-626-264-7659x1697')"
+    },
+    {
+        "db_id": "dog_kennels",
+        "table_name": "Charges",
+        "schema": "[charge_id, charge_type, charge_amount]\n(1, 'Daily Accommodation', 98)\n(2, 'Drugs', 322)\n(3, 'Health Check', 640)"
+    },
+    {
+        "db_id": "dog_kennels",
+        "table_name": "dogs",
+        "schema": "[dog_id, owner_id, abandoned_yn, breed_code, size_code, name, age, date_of_birth, gender, weight, date_arrived, date_adopted, date_departed]\n(1, 3, '1', 'ESK', 'LGE', 'Kacey', '6', '2012-01-27 05:11:53', '1', '7.57', '2017-09-08 20:10:13', '2018-03-06 16:32:11', '2018-03-25 06:58:44')\n(2, 11, '0', 'BUL', 'LGE', 'Hipolito', '9', '2013-02-13 05:15:21', '0', '1.72', '2017-12-22 05:02:02', '2018-03-25 08:12:51', '2018-03-25 02:11:32')\n(3, 1, '0', 'BUL', 'MED', 'Mavis', '8', '2008-05-19 15:54:49', '1', '8.04', '2017-06-25 10:14:05', '2018-03-07 21:45:43', '2018-03-25 10:25:46')\n(4, 14, '0', 'ESK', 'LGE', 'Houston', '5', '2008-10-09 22:38:53', '0', '2.18', '2017-04-20 00:58:55', '2018-03-18 15:12:50', '2018-03-24 19:12:22')\n(5, 7, '0', 'BUL', 'MED', 'Jeffrey', '4', '2018-03-17 04:05:12', '0', '1.39', '2017-10-25 00:55:34', '2018-02-27 11:54:35', '2018-03-25 04:50:22')"
+    },
+    {
+        "db_id": "real_estate_properties",
+        "table_name": "Other_Available_Features",
+        "schema": "[feature_id, feature_type_code, feature_name, feature_description]\n(2, 'Amenity', 'AirCon', 'Air Conditioning.')\n(3, 'Amenity', 'Pool', 'Swimming Pool.')\n(4, 'Security', 'BurglarAlarm', 'Burglar Alarm')"
+    },
+    {
+        "db_id": "real_estate_properties",
+        "table_name": "Properties",
+        "schema": "[property_id, property_type_code, date_on_market, date_sold, property_name, property_address, room_count, vendor_requested_price, buyer_offered_price, agreed_selling_price, apt_feature_1, apt_feature_2, apt_feature_3, fld_feature_1, fld_feature_2, fld_feature_3, hse_feature_1, hse_feature_2, hse_feature_3, oth_feature_1, oth_feature_2, oth_feature_3, shp_feature_1, shp_feature_2, shp_feature_3, other_property_details]\n(1, 'House', '1991-06-21 23:52:10', '1979-05-13 16:58:06', 'park', '4745 Emerson Stravenue Suite 829\\nSouth Garret, IN 16772-5682', 7, 372652.2909, 1.68, 4201.8, 'aut', 'suscipit', None, None, None, None, None, None, None, None, None, None, None, None, None, None)\n(2, 'House', '1990-05-25 23:01:51', '1990-11-14 19:16:38', 'the cole', '098 Tremaine Highway Suite 569\\nSouth Wilford, NJ 46587-3537', 1, 661536468.4429, 8.7122, 21769471.8328, 'est', 'est', None, None, None, None, None, None, None, None, None, None, None, None, None, None)\n(3, 'Other', '1986-11-26 04:12:18', '1981-06-26 21:28:28', 'prism', '062 Micaela Court Apt. 707\\nMargretville, WV 51628-3617', 8, 1337, 11375259.502, 5, 'ut', 'et', None, None, None, None, None, None, None, None, None, None, None, None, None, None)\n(4, 'Field', '2017-09-14 15:49:23', '2003-02-27 18:17:11', 'riverside', '49578 Ayden Mountains\\nNew Russellhaven, UT 46626', 6, 192374065.8, 15.17, 4514.807, 'nesciunt', 'adipisci', None, None, None, None, None, None, None, None, None, None, None, None, None, None)\n(5, 'Apartment', '2016-05-06 16:53:39', '2012-08-19 07:36:57', 'parc east', '2765 Schulist Stream\\nLindmouth, UT 03391-3817', 5, 983.8596, 10.1067, 1.0012, 'quo', 'sequi', None, None, None, None, None, None, None, None, None, None, None, None, None, None)"
+    }
+]
