@@ -2,7 +2,7 @@
 
 This repository contains the code and datasets for the paper "RedParrot: Accelerating NL-to-DSL for Business Analytics via Query Semantic Caching".
 
-![main](./picture/main.jpg "main")
+![main](./picture/main.jpeg "main")
 
 > **Note on Availability:** A portion of the source code and all in-house datasets are currently undergoing an internal review process. They will be released publicly upon approval.
 
