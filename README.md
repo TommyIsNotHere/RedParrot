@@ -1,4 +1,4 @@
-# 🦜RedParrot: Accelerating NL-to-DSL for Business Analytics via Query Semantic Caching
+# RedParrot: Accelerating NL-to-DSL for Business Analytics via Query Semantic Caching
 
 This repository contains the code and datasets for the paper "RedParrot: Accelerating NL-to-DSL for Business Analytics via Query Semantic Caching".
 
