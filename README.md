@@ -6,16 +6,16 @@ This repository contains the code and datasets for the paper "RedParrot: Acceler
 
 > **Note on Availability:** A portion of the source code and all in-house datasets are currently undergoing an internal review process. They will be released publicly upon approval.
 
-## 💻Code
+## 💻 Code
 
 The source code for our project is provided in this repository.
 
-## 📚Datasets
+## 📚 Datasets
 
 We evaluated our model on two types of datasets:
 
 1.  **In-house Datasets (Currently Private)**: Six datasets were built from real operational data at Xiaohongshu. These are pending release after an internal review.
 2.  **New Public Benchmarks**: We introduce two new benchmarks, **Spider-DSL** and **BIRD-DSL**, which are synthesized from the popular Text-to-SQL datasets Spider and BIRD. These are available in this repository.
 
-## 🤝Acknowledge
+## 🤝 Acknowledge
 This work was conducted as part of a research collaboration between **Zhejiang University** and **Xiaohongshu**. We thank our colleagues from both institutions for their valuable feedback and support.
