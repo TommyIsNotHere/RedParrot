@@ -1,4 +1,4 @@
-# RedParrot: Accelerating NL-to-DSL for Business Analytics via Query Semantic Caching
+# 🚀RedParrot: Accelerating NL-to-DSL for Business Analytics via Query Semantic Caching
 
 This repository contains the code and datasets for the paper "RedParrot: Accelerating NL-to-DSL for Business Analytics via Query Semantic Caching".
 
@@ -18,4 +18,4 @@ We evaluated our model on two types of datasets:
 2.  **New Public Benchmarks**: We introduce two new benchmarks, **Spider-DSL** and **BIRD-DSL**, which are synthesized from the popular Text-to-SQL datasets Spider and BIRD. These are available in this repository.
 
 ## 🤝Acknowledge
-This work was conducted as part of a research collaboration between Zhejiang University and Xiaohongshu. We thank our colleagues from both institutions for their valuable feedback and support.
+This work was conducted as part of a research collaboration between **Zhejiang University** and **Xiaohongshu**. We thank our colleagues from both institutions for their valuable feedback and support.
